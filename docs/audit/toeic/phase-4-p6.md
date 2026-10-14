@@ -29,4 +29,4 @@ Date: 2026-10-14. Content and code: IELTS repo, branch `claude/toeic-phase3`.
 - Two style notes for the teacher (see the checklist).
 
 ## Owner sign-off
-Pending (yes / no, date).
+Yes, 2026-10-14.
