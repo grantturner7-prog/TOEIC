@@ -29,7 +29,7 @@ Three reviewers checked Phases 1 and 2; fixes and five plan changes are in `docs
 
 ## Owner questions
 Answered yes (2026-10-14): Reading first, pricing shape like IELTS, Traditional Chinese interface, one app and login, owner records strategy conversations, a teacher is available (name to be recorded).
-**Still open:** audio method (recorded voices, text-to-speech or a mix). Must be decided before Phase 5.
+Audio method decided 2026-10-14: a mix (text-to-speech with teacher review for practice sets; recorded voices for mocks).
 
 ## Loose ends
 - The IELTS repo still has branch `claude/laughing-bardeen-s1pwhk` holding a copy of the plan. Delete it only if the owner says so.

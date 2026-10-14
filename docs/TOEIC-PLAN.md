@@ -135,7 +135,7 @@ Speaking & Writing course, then international markets.
 ## Owner answers (2026-10-14)
 Owner accepted all recommendations.
 1. Reading first, then Listening: **yes**.
-2. Audio: **undecided** (either/or question with no single recommendation). Must be settled before Phase 6.
+2. Audio: **a mix** (decided 2026-10-14 before Phase 5): multi-accent text-to-speech reviewed by the teacher for practice sets; recorded voices for mock tests. Licensing for commercial text-to-speech use to be checked in Phase 6.
 3. Pricing: same shape as IELTS, same NT$ level: **yes**, to be confirmed in Phase 8.
 4. Traditional Chinese interface from the first release: **yes**.
 5. One app and login for IELTS and TOEIC: **yes**.
@@ -154,3 +154,6 @@ The brand, claims and original-content guardrails above were added at the same t
 ## Phase 3 status (2026-10-14)
 Built in the IELTS repo (`grantturner7-prog/IELTS`, branch `claude/toeic-phase3`, not merged), in four small steps, each with its own audit: 3a product line, gate and sample sets; 3b scoring and report logic; 3c item formats in the app; 3d interface strings. See `docs/audit/toeic/phase-3a.md` to `phase-3d.md`.
 Repo layout note for Phase 4: the app serves content from the IELTS repo's `content/` folder, so real TOEIC items must end up there. This repo keeps the plan, standards, audits and the checker (`scripts/check_toeic.py` already validates files in that location).
+
+## Phase 4 and 5 status (2026-10-14)
+Phase 4 complete: Parts 5, 6 and 7 each have a strategy card (draft, awaiting recording), Skills, and an original practice set that passed the checker and a three-solver blind solve; together they form a full 100-question Reading section. Teacher review is pending on all three sets (`docs/review/`). Phase 5 complete: Reading diagnostic with level, weakest parts and a three-step plan; no total score. Audits: `docs/audit/toeic/phase-4-p5.md`, `phase-4-p6.md`, `phase-4-p7.md`, `phase-5.md`.

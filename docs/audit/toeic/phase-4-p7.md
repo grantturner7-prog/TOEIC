@@ -30,4 +30,4 @@ Date: 2026-10-14. Content and code: IELTS repo, branch `claude/toeic-phase3`.
 - Phase 4 is now complete for all three Reading parts. The full 100-question Reading set passes the checker, which is the first step towards Phase 7 mocks.
 
 ## Owner sign-off
-Pending (yes / no, date).
+Yes, 2026-10-14.
