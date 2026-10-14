@@ -150,3 +150,7 @@ Three independent reviewers (test expert, curriculum and pedagogy, item-writing 
 4. zh-TW string externalisation starts in Phase 3.
 5. The first release is positioned as a Reading course.
 The brand, claims and original-content guardrails above were added at the same time.
+
+## Phase 3 status (2026-10-14)
+Built in the IELTS repo (`grantturner7-prog/IELTS`, branch `claude/toeic-phase3`, not merged), in four small steps, each with its own audit: 3a product line, gate and sample sets; 3b scoring and report logic; 3c item formats in the app; 3d interface strings. See `docs/audit/toeic/phase-3a.md` to `phase-3d.md`.
+Repo layout note for Phase 4: the app serves content from the IELTS repo's `content/` folder, so real TOEIC items must end up there. This repo keeps the plan, standards, audits and the checker (`scripts/check_toeic.py` already validates files in that location).
