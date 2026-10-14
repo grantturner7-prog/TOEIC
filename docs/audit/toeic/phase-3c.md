@@ -24,4 +24,4 @@ Date: 2026-10-14. Code: IELTS repo, branch `claude/toeic-phase3`, commit 6f04baa
 - `e2e-video` is broken independently of this work and should be looked at separately.
 
 ## Owner sign-off
-Pending (yes / no, date).
+Yes, 2026-10-14 (owner said "keep going").

@@ -25,4 +25,4 @@ Date: 2026-10-14. Code: `grantturner7-prog/IELTS`, branch `claude/toeic-phase3`,
 - Sample items record provenance as "AI assistant (draft sample)" without a model name, because the working rules for this session do not allow a model identifier in repository files. Fill in the real model name if the owner wants it recorded.
 
 ## Owner sign-off
-Pending (yes / no, date).
+Yes, 2026-10-14 (owner said "keep going").

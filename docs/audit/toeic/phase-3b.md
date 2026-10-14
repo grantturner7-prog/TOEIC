@@ -22,4 +22,4 @@ Date: 2026-10-14. Code: IELTS repo, branch `claude/toeic-phase3`, commit eab5203
 - Item analysis for TOEIC (separate from IELTS) is not built yet; TOEIC attempts are excluded from the IELTS one.
 
 ## Owner sign-off
-Pending (yes / no, date).
+Yes, 2026-10-14 (owner said "keep going").

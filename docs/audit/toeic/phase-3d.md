@@ -22,4 +22,4 @@ Date: 2026-10-14. Code: IELTS repo, branch `claude/toeic-phase3`, commit 6f04baa
 - Only the TOEIC view is covered. The rest of the app still has its own mixed English and Chinese text; moving it onto the string files is Phase 8 work.
 
 ## Owner sign-off
-Pending (yes / no, date).
+Yes, 2026-10-14 (owner said "keep going").
