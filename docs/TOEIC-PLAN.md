@@ -118,3 +118,13 @@ Speaking & Writing course, then international markets.
 5. **One app or two?** One student login and storefront for IELTS and TOEIC (recommended), or a separate site?
 6. **Recordings:** will you record TOEIC strategy conversations as you did for IELTS? They remain the source of truth for strategy content.
 7. **Teacher access:** is there a teacher who can run the review and sign-off steps for TOEIC?
+
+## Owner answers (2026-10-14)
+Owner accepted all recommendations.
+1. Reading first, then Listening: **yes**.
+2. Audio: **undecided** (either/or question with no single recommendation). Must be settled before Phase 6.
+3. Pricing: same shape as IELTS, same NT$ level: **yes**, to be confirmed in Phase 8.
+4. Traditional Chinese interface from the first release: **yes**.
+5. One app and login for IELTS and TOEIC: **yes**.
+6. Owner records TOEIC strategy conversations: **yes**.
+7. Teacher for review and sign-off: **yes**, name to be recorded.
