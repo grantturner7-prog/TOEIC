@@ -31,4 +31,4 @@ Date: 2026-10-14. Content and code: IELTS repo, branch `claude/toeic-phase3`.
 - "AI assistant (draft)" is recorded as provenance; no model name is written into repository files under this session's rules.
 
 ## Owner sign-off
-Pending (yes / no, date).
+Yes, 2026-10-14.
