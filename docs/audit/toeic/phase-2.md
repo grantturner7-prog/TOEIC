@@ -25,7 +25,7 @@ Defects covered: missing or empty fields, duplicate id, bad key, repeated or emp
 - The owner has not yet read the standards once, as the plan's audit requires.
 
 ## Owner sign-off
-Pending (yes / no, date).
+Yes, 2026-10-14.
 
 ## Corrections after independent review (2026-10-14)
 The reviewer ran about 110 mutated inputs and confirmed the problems below. Fixed:
@@ -48,4 +48,4 @@ Re-check: `python3 scripts/test_check_toeic.py` -> 56 named defects, 710 fuzz co
 Still true: the checker cannot judge good English, a single best answer or plausible distractors; teacher review does. Listening items and `--spec full` are not covered yet. Reviewer's idea of a chi-square test for key spread, and similarity-based duplicate detection, are not built.
 
 ## Owner sign-off (corrections)
-Pending (yes / no, date).
+Yes, 2026-10-14.

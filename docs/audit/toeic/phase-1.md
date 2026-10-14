@@ -40,4 +40,4 @@ Re-check: `python3 scripts/check_toeic_catalog.py` -> OK: 200 questions, 21 slot
 Open: the part and timing facts were checked against one ETS search summary plus the test expert's knowledge (ets.org pages could not be opened by the reviewer). Spot-check the ETS sample test PDF for direction and gap lengths before publishing numbers.
 
 ## Owner sign-off (corrections)
-Pending (yes / no, date).
+Yes, 2026-10-14.
