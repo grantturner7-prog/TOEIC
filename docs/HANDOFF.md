@@ -3,7 +3,7 @@
 ## Decisions made
 - Target market: **Taiwan first**, international after it sells well.
 - Approach: **hybrid**. Strategy stays the spine (Locate and Answer pillars, signals and keywords), with a real English-teaching "Skills" track alongside, heaviest for Parts 5 and 6 (grammar and vocabulary). Skills and Strategy stay in separate, cross-linked sections.
-- First release: **Listening & Reading only**. Speaking & Writing is a later phase.
+- First product: **Listening & Reading**, released Reading first and sold as a Reading course until Listening ships. Speaking & Writing is a later phase.
 - Build order: **Reading first, then Listening** (Listening needs audio, the biggest cost and risk).
 - Every phase ends in a small audit at `docs/audit/toeic/phase-N.md`; the owner signs off before the next phase.
 - Architecture to reuse from the IELTS project: `content/` JSON, server gate, teacher/student/admin roles, a `check_*.py` content gate. Add a `toeic` product line next to `ielts`.
@@ -21,17 +21,15 @@
 - Get a real figure from the Taiwan distributor, Chung Hsin (忠欣), before pricing or market-size decisions.
 - Implications: cheap repeatable practice, score tracking across attempts, possible group or teacher sales (universities and employers buy in bulk).
 
+## Review outcome (2026-10-14)
+Three reviewers checked Phases 1 and 2; fixes and five plan changes are in `docs/TOEIC-PLAN.md` ("Plan changes after the Phase 1 and 2 review"). Key learnings: the test has no separate preview pause (students read ahead in directions and gaps); Parts 3, 4 and 7 have speaker/writer-intent questions; Locate and Answer fits Part 7 best and Part 5 is a quick routine; scaled scores need estimated ranges.
+
 ## Where the project map lives
 - `docs/TOEIC-PLAN.md` in this repo (copied from `grantturner7-prog/IELTS`, branch `claude/laughing-bardeen-s1pwhk`). Ten phases (0–9).
 
-## Open owner questions (also at the end of the plan)
-1. Reading first, then Listening?
-2. Audio: recorded voices or text-to-speech?
-3. Pricing shape and NT$ level (same as IELTS?)
-4. Traditional Chinese for the whole interface from the first release?
-5. One app and login for IELTS and TOEIC, or a separate site?
-6. Will the owner record TOEIC strategy conversations as for IELTS?
-7. Is there a teacher for review and sign-off?
+## Owner questions
+Answered yes (2026-10-14): Reading first, pricing shape like IELTS, Traditional Chinese interface, one app and login, owner records strategy conversations, a teacher is available (name to be recorded).
+**Still open:** audio method (recorded voices, text-to-speech or a mix). Must be decided before Phase 5.
 
 ## Loose ends
 - The IELTS repo still has branch `claude/laughing-bardeen-s1pwhk` holding a copy of the plan. Delete it only if the owner says so.

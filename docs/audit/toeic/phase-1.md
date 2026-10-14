@@ -25,3 +25,19 @@ Date: 2026-10-14
 
 ## Owner sign-off
 Yes, 2026-10-14.
+
+## Corrections after independent review (2026-10-14)
+Three reviewers (TOEIC test expert, curriculum and pedagogy, item-writing and code) checked this phase. Fixed:
+- Speaker-intent and writer-intent questions added (Parts 3, 4 and 7); Parts 3 and 4 regrouped as topic and purpose / detail and graphics / intent, implication and next step.
+- Part 1 types are now one or more people / objects and scenery / mixed scenes; sound-alike choices became a distractor strategy taught inside every type.
+- "Preview time" reworded: the test has no separate pause; students read ahead during directions and gaps. Exact lengths still to be checked against the ETS sample test.
+- Locate and Answer adapted per part (Part 2 Catch/Answer, Part 5 a quick routine, Part 6 sentence insertion Locate step). IELTS comparison removed.
+- Skills added: Chinese-speaker challenges, accents and reductions, number discrimination, distractor patterns, paraphrase, vocabulary review loop, test stamina, suffix patterns and fixed phrases.
+- Timing guidance now notes there is no section break; part 6 recorded as 4 texts of 4 blanks; text-message chains listed under Part 7.
+- `check_toeic_catalog.py` now runs from any directory, requires 1 to 3 types per part, checks 29 + 25 = 54 and 4 x 4 = 16, and checks the Skills tables link every part.
+
+Re-check: `python3 scripts/check_toeic_catalog.py` -> OK: 200 questions, 21 slots.
+Open: the part and timing facts were checked against one ETS search summary plus the test expert's knowledge (ets.org pages could not be opened by the reviewer). Spot-check the ETS sample test PDF for direction and gap lengths before publishing numbers.
+
+## Owner sign-off (corrections)
+Pending (yes / no, date).
