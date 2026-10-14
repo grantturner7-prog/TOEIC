@@ -24,4 +24,4 @@ Date: 2026-10-14
 - Question-type names are English only; zh-TW glosses come in Phase 8.
 
 ## Owner sign-off
-Pending (yes / no, date).
+Yes, 2026-10-14.
