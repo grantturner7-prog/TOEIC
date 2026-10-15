@@ -413,7 +413,7 @@
     "accent": "AU",
     "gender": "M"
    },
-   "text": "A. Right after the meeting yesterday, I think.",
+   "text": "A. Sure, I'll make some extra copies for you.",
    "pauseAfterSeconds": 1.0,
    "role": "option"
   },
@@ -437,7 +437,7 @@
     "accent": "AU",
     "gender": "M"
    },
-   "text": "C. Sure, I'll make some extra copies for you.",
+   "text": "C. Right after the meeting yesterday, I think.",
    "pauseAfterSeconds": 5.0,
    "role": "option"
   },
@@ -473,7 +473,7 @@
     "accent": "CA",
     "gender": "W"
    },
-   "text": "A. Roughly forty minutes, if the traffic's light.",
+   "text": "A. It picks up guests right outside the lobby.",
    "pauseAfterSeconds": 1.0,
    "role": "option"
   },
@@ -485,7 +485,7 @@
     "accent": "CA",
     "gender": "W"
    },
-   "text": "B. It picks up guests right outside the lobby.",
+   "text": "B. The last one left about ten minutes ago.",
    "pauseAfterSeconds": 1.0,
    "role": "option"
   },
@@ -497,7 +497,7 @@
     "accent": "CA",
     "gender": "W"
    },
-   "text": "C. The last one left about ten minutes ago.",
+   "text": "C. Roughly forty minutes, if traffic's light.",
    "pauseAfterSeconds": 5.0,
    "role": "option"
   },
@@ -533,7 +533,7 @@
     "accent": "US",
     "gender": "M"
    },
-   "text": "A. The finance department's on the third floor.",
+   "text": "A. I paid for the new office chairs out of pocket.",
    "pauseAfterSeconds": 1.0,
    "role": "option"
   },
@@ -545,7 +545,7 @@
     "accent": "US",
     "gender": "M"
    },
-   "text": "B. He paid them a visit on Thursday afternoon.",
+   "text": "B. Accounting's waiting on a purchase order.",
    "pauseAfterSeconds": 1.0,
    "role": "option"
   },
@@ -557,7 +557,7 @@
     "accent": "US",
     "gender": "M"
    },
-   "text": "C. Accounting's still waiting for the purchase order.",
+   "text": "C. The invoice came to just under four thousand.",
    "pauseAfterSeconds": 5.0,
    "role": "option"
   },
@@ -593,7 +593,7 @@
     "accent": "AU",
     "gender": "W"
    },
-   "text": "A. I'd like the roast chicken, please.",
+   "text": "A. Four of us ate here last Friday.",
    "pauseAfterSeconds": 1.0,
    "role": "option"
   },
@@ -617,7 +617,7 @@
     "accent": "AU",
     "gender": "W"
    },
-   "text": "C. Four of us ate here last Friday.",
+   "text": "C. I'd like the roast chicken, please.",
    "pauseAfterSeconds": 5.0,
    "role": "option"
   },
@@ -653,7 +653,7 @@
     "accent": "UK",
     "gender": "W"
    },
-   "text": "A. Over the weekend, when nobody's using the system.",
+   "text": "A. Over the weekend, when it's quiet.",
    "pauseAfterSeconds": 1.0,
    "role": "option"
   },
@@ -665,7 +665,7 @@
     "accent": "UK",
     "gender": "W"
    },
-   "text": "B. He installed a new printer earlier this morning.",
+   "text": "B. That software was pretty expensive, actually.",
    "pauseAfterSeconds": 1.0,
    "role": "option"
   },
@@ -677,7 +677,7 @@
     "accent": "UK",
     "gender": "W"
    },
-   "text": "C. No, the software was pretty expensive, actually.",
+   "text": "C. He installed a new printer earlier this morning.",
    "pauseAfterSeconds": 5.0,
    "role": "option"
   },
@@ -713,7 +713,7 @@
     "accent": "CA",
     "gender": "M"
    },
-   "text": "A. We hired three people last spring.",
+   "text": "A. I started here about a year ago.",
    "pauseAfterSeconds": 1.0,
    "role": "option"
   },
@@ -737,7 +737,7 @@
     "accent": "CA",
     "gender": "M"
    },
-   "text": "C. I started here about a year ago.",
+   "text": "C. We hired three people last spring.",
    "pauseAfterSeconds": 5.0,
    "role": "option"
   },
@@ -785,7 +785,7 @@
     "accent": "US",
     "gender": "W"
    },
-   "text": "B. The handbags are over on the second floor.",
+   "text": "B. Yes, please, I've got other things to carry.",
    "pauseAfterSeconds": 1.0,
    "role": "option"
   },
@@ -797,7 +797,7 @@
     "accent": "US",
     "gender": "W"
    },
-   "text": "C. Yes, please, they'll be easier to carry.",
+   "text": "C. The handbags are over by the fitting rooms.",
    "pauseAfterSeconds": 5.0,
    "role": "option"
   },
@@ -833,7 +833,7 @@
     "accent": "AU",
     "gender": "M"
    },
-   "text": "A. I moved into a bigger apartment last month.",
+   "text": "A. Good idea, the small room won't fit everyone.",
    "pauseAfterSeconds": 1.0,
    "role": "option"
   },
@@ -845,7 +845,7 @@
     "accent": "AU",
     "gender": "M"
    },
-   "text": "B. Good idea, the small room won't fit everyone.",
+   "text": "B. The ballroom's on the second floor, by the entrance.",
    "pauseAfterSeconds": 1.0,
    "role": "option"
   },
@@ -857,7 +857,7 @@
     "accent": "AU",
     "gender": "M"
    },
-   "text": "C. The ballroom's on the second floor, by the entrance.",
+   "text": "C. I moved into a bigger apartment last month.",
    "pauseAfterSeconds": 5.0,
    "role": "option"
   },
@@ -881,7 +881,7 @@
     "accent": "US",
     "gender": "W"
    },
-   "text": "When does the next shuttle to the airport leave?",
+   "text": "Which platform does the train to Boston leave from?",
    "pauseAfterSeconds": 1.0,
    "role": "prompt"
   },
@@ -893,7 +893,7 @@
     "accent": "UK",
     "gender": "M"
    },
-   "text": "A. At nine fifteen, so you've got time.",
+   "text": "A. I'm going to Boston to visit my sister.",
    "pauseAfterSeconds": 1.0,
    "role": "option"
   },
@@ -905,7 +905,7 @@
     "accent": "UK",
     "gender": "M"
    },
-   "text": "B. Sure, I'll leave a message at the desk.",
+   "text": "B. It's about a three-hour ride with one stop.",
    "pauseAfterSeconds": 1.0,
    "role": "option"
   },
@@ -917,7 +917,7 @@
     "accent": "UK",
     "gender": "M"
    },
-   "text": "C. It stops right outside the main entrance.",
+   "text": "C. Platform six, past the ticket office.",
    "pauseAfterSeconds": 5.0,
    "role": "option"
   },
@@ -965,7 +965,7 @@
     "accent": "CA",
     "gender": "W"
    },
-   "text": "B. Right after we opened up this morning.",
+   "text": "B. I'll put the coats out on the front display.",
    "pauseAfterSeconds": 1.0,
    "role": "option"
   },
@@ -977,7 +977,7 @@
     "accent": "CA",
     "gender": "W"
    },
-   "text": "C. Yes, the new bags are a really great price.",
+   "text": "C. The winter coats are thirty percent off.",
    "pauseAfterSeconds": 5.0,
    "role": "option"
   },
@@ -1013,7 +1013,7 @@
     "accent": "US",
     "gender": "M"
    },
-   "text": "A. Apparently a sample had to be tested again.",
+   "text": "A. They sent his X-ray results over on Tuesday.",
    "pauseAfterSeconds": 1.0,
    "role": "option"
   },
@@ -1025,7 +1025,7 @@
     "accent": "US",
     "gender": "M"
    },
-   "text": "B. They sent over his X-ray results last Friday.",
+   "text": "B. The blood drive's in the cafeteria all week.",
    "pauseAfterSeconds": 1.0,
    "role": "option"
   },
@@ -1037,7 +1037,7 @@
     "accent": "US",
     "gender": "M"
    },
-   "text": "C. The lab's on the third floor, next to radiology.",
+   "text": "C. Apparently a sample had to be tested again.",
    "pauseAfterSeconds": 5.0,
    "role": "option"
   },
@@ -1061,7 +1061,7 @@
     "accent": "CA",
     "gender": "M"
    },
-   "text": "Do you have a table for four by the window?",
+   "text": "Should I bring your coffee now or after the meal?",
    "pauseAfterSeconds": 1.0,
    "role": "prompt"
   },
@@ -1073,7 +1073,7 @@
     "accent": "AU",
     "gender": "W"
    },
-   "text": "A. Yes, there's one free right over here.",
+   "text": "A. The meal was wonderful, thanks so much.",
    "pauseAfterSeconds": 1.0,
    "role": "option"
   },
@@ -1085,7 +1085,7 @@
     "accent": "AU",
     "gender": "W"
    },
-   "text": "B. We replaced all the windows last week.",
+   "text": "B. After the meal, please, with the dessert.",
    "pauseAfterSeconds": 1.0,
    "role": "option"
   },
@@ -1097,7 +1097,7 @@
     "accent": "AU",
     "gender": "W"
    },
-   "text": "C. Side salads are four dollars extra each.",
+   "text": "C. I take my coffee with a little milk.",
    "pauseAfterSeconds": 5.0,
    "role": "option"
   },
@@ -1133,7 +1133,7 @@
     "accent": "AU",
     "gender": "M"
    },
-   "text": "A. Yes, I'd much rather just take the stairs.",
+   "text": "A. I leased a car through them in March.",
    "pauseAfterSeconds": 1.0,
    "role": "option"
   },
@@ -1145,7 +1145,7 @@
     "accent": "AU",
     "gender": "M"
    },
-   "text": "B. The full year, so the rent can't go up.",
+   "text": "B. I'd much rather take the stairs than wait.",
    "pauseAfterSeconds": 1.0,
    "role": "option"
   },
@@ -1157,7 +1157,7 @@
     "accent": "AU",
     "gender": "M"
    },
-   "text": "C. I leased a car from them last spring.",
+   "text": "C. The full year, so the rent can't go up.",
    "pauseAfterSeconds": 5.0,
    "role": "option"
   },
@@ -1205,7 +1205,7 @@
     "accent": "US",
     "gender": "W"
    },
-   "text": "B. No, I've never been to Denver before.",
+   "text": "B. I've never been out to Denver before.",
    "pauseAfterSeconds": 1.0,
    "role": "option"
   },
@@ -1253,7 +1253,7 @@
     "accent": "CA",
     "gender": "M"
    },
-   "text": "A. Good idea, shoppers would see it right away.",
+   "text": "A. The clearance sale runs through Sunday.",
    "pauseAfterSeconds": 1.0,
    "role": "option"
   },
@@ -1277,7 +1277,7 @@
     "accent": "CA",
     "gender": "M"
    },
-   "text": "C. I moved here from the Riverside branch.",
+   "text": "C. Let's do it. Shoppers would see it sooner.",
    "pauseAfterSeconds": 5.0,
    "role": "option"
   },
@@ -1313,7 +1313,7 @@
     "accent": "UK",
     "gender": "W"
    },
-   "text": "A. That patient was sent home from the clinic.",
+   "text": "A. They'll go out first thing tomorrow.",
    "pauseAfterSeconds": 1.0,
    "role": "option"
   },
@@ -1337,7 +1337,7 @@
     "accent": "UK",
     "gender": "W"
    },
-   "text": "C. They'll go out Wednesday, well before Friday.",
+   "text": "C. That patient was sent home from the clinic.",
    "pauseAfterSeconds": 5.0,
    "role": "option"
   },
@@ -1373,7 +1373,7 @@
     "accent": "UK",
     "gender": "W"
    },
-   "text": "A. In the locker by the loading door.",
+   "text": "A. I can't leave till the night crew's here.",
    "pauseAfterSeconds": 1.0,
    "role": "option"
   },
@@ -1385,7 +1385,7 @@
     "accent": "UK",
     "gender": "W"
    },
-   "text": "B. Yes, the night crew needs new ones.",
+   "text": "B. In the locker by the loading door.",
    "pauseAfterSeconds": 1.0,
    "role": "option"
   },
@@ -1397,7 +1397,7 @@
     "accent": "UK",
     "gender": "W"
    },
-   "text": "C. Just before six, when my shift ended.",
+   "text": "C. Twelve pairs, one for each night worker.",
    "pauseAfterSeconds": 5.0,
    "role": "option"
   },
@@ -1445,7 +1445,7 @@
     "accent": "CA",
     "gender": "M"
    },
-   "text": "B. Yes, the expenses were higher than usual.",
+   "text": "B. Friday, once the last receipts come in.",
    "pauseAfterSeconds": 1.0,
    "role": "option"
   },
@@ -1457,7 +1457,7 @@
     "accent": "CA",
     "gender": "M"
    },
-   "text": "C. Friday, once the last receipts come in.",
+   "text": "C. Yes, the expenses were higher than usual.",
    "pauseAfterSeconds": 5.0,
    "role": "option"
   },
@@ -1493,7 +1493,7 @@
     "accent": "US",
     "gender": "W"
    },
-   "text": "A. Yes, they rejected it late last Thursday.",
+   "text": "A. They didn't say, but Dana's calling them today.",
    "pauseAfterSeconds": 1.0,
    "role": "option"
   },
@@ -1517,7 +1517,7 @@
     "accent": "US",
     "gender": "W"
    },
-   "text": "C. They didn't say, but Dana's calling them today.",
+   "text": "C. Yes, they rejected it late last Thursday.",
    "pauseAfterSeconds": 5.0,
    "role": "option"
   },
@@ -1553,7 +1553,7 @@
     "accent": "AU",
     "gender": "M"
    },
-   "text": "A. Yes, the courier brought them an hour ago.",
+   "text": "A. The conference is in the main ballroom.",
    "pauseAfterSeconds": 1.0,
    "role": "option"
   },
@@ -1565,7 +1565,7 @@
     "accent": "AU",
     "gender": "M"
    },
-   "text": "B. The conference is in the main ballroom.",
+   "text": "B. I'll arrive at the venue around nine.",
    "pauseAfterSeconds": 1.0,
    "role": "option"
   },
@@ -1577,7 +1577,7 @@
     "accent": "AU",
     "gender": "M"
    },
-   "text": "C. I'll arrive at the venue around nine.",
+   "text": "C. Yes, the courier brought them an hour ago.",
    "pauseAfterSeconds": 5.0,
    "role": "option"
   },
@@ -1601,7 +1601,7 @@
     "accent": "US",
     "gender": "W"
    },
-   "text": "Would you rather install the update tonight or wait until Saturday?",
+   "text": "Does the new boardroom projector work with a laptop?",
    "pauseAfterSeconds": 1.0,
    "role": "prompt"
   },
@@ -1613,7 +1613,7 @@
     "accent": "UK",
     "gender": "M"
    },
-   "text": "A. Our IT team moved upstairs last Saturday.",
+   "text": "A. We're projecting strong sales for the fall.",
    "pauseAfterSeconds": 1.0,
    "role": "option"
   },
@@ -1625,7 +1625,7 @@
     "accent": "UK",
     "gender": "M"
    },
-   "text": "B. Tonight. Nobody's on the system after six.",
+   "text": "B. The boardroom seats fifteen at the most.",
    "pauseAfterSeconds": 1.0,
    "role": "option"
   },
@@ -1637,7 +1637,7 @@
     "accent": "UK",
     "gender": "M"
    },
-   "text": "C. Yes, I'd much rather have the newer version.",
+   "text": "C. It does, but you'll need an adapter cable.",
    "pauseAfterSeconds": 5.0,
    "role": "option"
   },
@@ -1673,7 +1673,7 @@
     "accent": "CA",
     "gender": "W"
    },
-   "text": "A. No, I don't approve of the new design.",
+   "text": "A. The loan officer hasn't called us back.",
    "pauseAfterSeconds": 1.0,
    "role": "option"
   },
@@ -1685,7 +1685,7 @@
     "accent": "CA",
     "gender": "W"
    },
-   "text": "B. The loan officer hasn't called us back.",
+   "text": "B. No, I don't approve of the new design.",
    "pauseAfterSeconds": 1.0,
    "role": "option"
   },
@@ -1733,7 +1733,7 @@
     "accent": "US",
     "gender": "M"
    },
-   "text": "A. No, my passport's valid until next year.",
+   "text": "A. Sure, I'll take care of it right away.",
    "pauseAfterSeconds": 1.0,
    "role": "option"
   },
@@ -1745,7 +1745,7 @@
     "accent": "US",
     "gender": "M"
    },
-   "text": "B. Yes, it was nice meeting you too.",
+   "text": "B. I'm meeting the new clients at ten thirty.",
    "pauseAfterSeconds": 1.0,
    "role": "option"
   },
@@ -1757,7 +1757,7 @@
     "accent": "US",
     "gender": "M"
    },
-   "text": "C. Sure, I'll take care of it right away.",
+   "text": "C. My passport doesn't expire until next year.",
    "pauseAfterSeconds": 5.0,
    "role": "option"
   },
@@ -1793,7 +1793,7 @@
     "accent": "AU",
     "gender": "W"
    },
-   "text": "A. I moved to the marketing team about a month ago.",
+   "text": "A. Sounds great, I'll check if it's free that night.",
    "pauseAfterSeconds": 1.0,
    "role": "option"
   },
@@ -1805,7 +1805,7 @@
     "accent": "AU",
     "gender": "W"
    },
-   "text": "B. Good idea, I'll check if it's free that night.",
+   "text": "B. The sales team won most of the awards last year.",
    "pauseAfterSeconds": 1.0,
    "role": "option"
   },
@@ -1853,7 +1853,7 @@
     "accent": "UK",
     "gender": "W"
    },
-   "text": "A. Yes, the order took about twenty minutes to pack.",
+   "text": "A. I'll get maintenance to look at it right away.",
    "pauseAfterSeconds": 1.0,
    "role": "option"
   },
@@ -1877,7 +1877,7 @@
     "accent": "UK",
     "gender": "W"
    },
-   "text": "C. I'll get maintenance to look at it right away.",
+   "text": "C. That last order took about twenty minutes to pack.",
    "pauseAfterSeconds": 5.0,
    "role": "option"
   },
@@ -2249,7 +2249,7 @@
     "accent": "AU",
     "gender": "M"
    },
-   "text": "Customers keep asking for one that looks good on the counter. But we've only got three of the Pro left.",
+   "text": "Customers keep asking for one that looks good on the counter, and that's the Pro. But we've only got three of the Pro left.",
    "pauseAfterSeconds": 0.6,
    "role": "script"
   },
@@ -2285,7 +2285,7 @@
     "accent": "US",
     "gender": "W"
    },
-   "text": "Yes, please. And move the Brewmate units to the lower shelf. I'll call the warehouse about extra stock.",
+   "text": "Yes, please. And move the extra units to the lower shelf. I'll call the warehouse about extra stock.",
    "pauseAfterSeconds": 0.6,
    "role": "script"
   },
