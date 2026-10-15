@@ -56,6 +56,39 @@ def p7(n, fmt, nq):
     return it
 
 
+V = {"accent": "US", "gender": "W"}
+def lbase(i, part, typ, n):
+    it = base(i, part, typ, n); it.update(timing={"audioSeconds": 30}, audio=None); return it
+
+def p1(n):
+    it = lbase(n, "p1", f"TQ-1-{n % 3 + 1}", n)
+    it.update(photo={"brief": f"Synthetic photo {n} of an office"}, speaker={"accent": ["US", "UK", "AU", "CA"][n % 4], "gender": "M"}, options=opts(n), answer=L[n % 4]); return it
+
+def p2(n):
+    it = lbase(n, "p2", f"TQ-2-{n % 3 + 1}", n)
+    o = {k: f"reply{n}{k.lower()}" for k in "ABC"}
+    it.update(prompt=f"Synthetic question {n}?", speakers={"prompt": {"accent": "UK", "gender": "W"}, "response": {"accent": "US", "gender": "M"}}, options=o, answer="ABC"[n % 3]); return it
+
+def seg(sp, text, acc="US"): return {"speaker": sp, "accent": acc, "gender": "M" if sp.startswith("Man") else "W", "text": text}
+def q34(n, k, part):
+    return {"stem": f"Q{n}.{k}?", "type": f"TQ-{part[1]}-{k % 3 + 1}", "options": opts(n * 10 + k), "answer": L[(n + k) % 4]}
+def p3(n):
+    it = lbase(n, "p3", "TQ-3-1", n)
+    words = " ".join(["word"] * 20)
+    it.update(script=[seg("Man", f"Hello {n} {words}"), seg("Woman", words, "AU"), seg("Man", words), seg("Woman", words, "AU")], questions=[q34(n, k, "p3") for k in range(3)])
+    if n == 0: it["script"].append(seg("Man 2", words, "CA"))
+    if n < 2: it["graphic"] = {"kind": "table", "rows": [["Room", "Time"], ["A", "9:00"]]}
+    return it
+def p4(n):
+    it = lbase(n, "p4", "TQ-4-1", n)
+    words = " ".join(["word"] * 40)
+    it.update(script=[seg("Woman", f"Talk {n} {words}", "UK"), seg("Woman", words, "UK")], questions=[q34(n, k, "p4") for k in range(3)])
+    if n < 2: it["graphic"] = {"kind": "schedule", "rows": [["Day", "Event"], ["Mon", "Opening"]]}
+    return it
+
+def good_listening():
+    return [p1(n) for n in range(6)] + [p2(n) for n in range(25)] + [p3(n) for n in range(13)] + [p4(n) for n in range(10)]
+
 def good_reading():
     items = [p5(n) for n in range(30)]
     items += [p6(n) for n in range(4)]
@@ -147,8 +180,8 @@ M = {
 def corrupt_variants():
     """Yield (label, items) where one field of one item (or nested object) holds a wrong value."""
     bad_values = [None, [], {}, 5, "", ["x"], {"x": 1}]
-    good = good_reading()
-    picks = [find(good, "p5"), find(good, "p6"), find(good, "p7"), find(good, "p7", 10)]
+    good = good_reading() + good_listening()
+    picks = [find(good, "p5"), find(good, "p6"), find(good, "p7"), find(good, "p7", 10), find(good, "p1"), find(good, "p2"), find(good, "p3"), find(good, "p4")]
     for pick in picks:
         targets = [("item", pick)]
         if "questions" in pick:
@@ -156,6 +189,14 @@ def corrupt_variants():
             targets.append(("question options", pick["questions"][0]["options"]))
         if "documents" in pick:
             targets.append(("document", pick["documents"][0]))
+        if "script" in pick:
+            targets.append(("segment", pick["script"][0]))
+        if "photo" in pick:
+            targets.append(("photo", pick["photo"]))
+        if "speakers" in pick:
+            targets.append(("speakers", pick["speakers"]))
+        if "timing" in pick:
+            targets.append(("timing", pick["timing"]))
         targets.append(("review", pick["review"]))
         targets.append(("options", pick["options"]) if "options" in pick else ("provenance", pick["provenance"]))
         for where, obj in targets:
@@ -165,13 +206,18 @@ def corrupt_variants():
                         continue
                     if key == "blind_solvers" and bad == 5:
                         continue  # a valid value
+                    if key == "audioSeconds" and bad == 5:
+                        continue  # a valid value
+                    if key == "graphic" and bad is None:
+                        continue  # no graphic is allowed
                     items = copy.deepcopy(good)
                     # locate same object in the copy by path
                     idx = good.index(pick)
                     cp = items[idx]
                     cobj = {"item": cp, "question": cp.get("questions", [None])[0], "document": (cp.get("documents") or [None])[0],
                             "review": cp["review"], "options": cp.get("options"), "provenance": cp["provenance"],
-                            "question options": (cp.get("questions", [{}])[0] or {}).get("options")}[where]
+                            "question options": (cp.get("questions", [{}])[0] or {}).get("options"),
+                            "segment": (cp.get("script") or [None])[0], "photo": cp.get("photo"), "speakers": cp.get("speakers"), "timing": cp.get("timing")}[where]
                     cobj[key] = bad
                     yield f"{pick['id']} {where}.{key} = {bad!r}", items
     for bad in (None, 5, "x", [], ["x"], {}):
@@ -183,11 +229,52 @@ def corrupt_variants():
         yield f"p7 questions replaced by [{bad!r}]*5", items
 
 
+ML = {
+    "p1 missing photo brief": (lambda s: find(s, "p1").pop("photo"), "none", "photo.brief"),
+    "p1 bad accent": (lambda s: find(s, "p1")["speaker"].update(accent="IE"), "none", "accent"),
+    "p1 three options only": (lambda s: find(s, "p1")["options"].pop("D"), "none", "exactly A, B, C, D"),
+    "p2 four options": (lambda s: find(s, "p2")["options"].update(D="extra"), "none", "exactly A, B, C"),
+    "p2 answer D": (lambda s: set_(find(s, "p2"), "answer", "D"), "none", "answer must be one of A-C"),
+    "p2 missing prompt": (lambda s: set_(find(s, "p2"), "prompt", ""), "none", "spoken prompt"),
+    "p2 missing response voice": (lambda s: find(s, "p2")["speakers"].pop("response"), "none", "response: needs accent"),
+    "p3 one speaker": (lambda s: [x.update(speaker="Man") for x in find(s, "p3", 1)["script"]], "none", "2 speakers"),
+    "p3 two questions": (lambda s: find(s, "p3")["questions"].pop(), "none", "exactly 3 questions"),
+    "p3 segment without text": (lambda s: find(s, "p3")["script"][0].update(text=" "), "none", "needs speaker and text"),
+    "p3 graphic without rows": (lambda s: set_(find(s, "p3"), "graphic", {"kind": "table", "rows": []}), "none", "graphic"),
+    "p4 two speakers": (lambda s: find(s, "p4")["script"][1].update(speaker="Man"), "none", "exactly one speaker"),
+    "p4 wrong type for part": (lambda s: find(s, "p4")["questions"][0].update(type="TQ-3-1"), "none", "not valid"),
+    "listening timing missing": (lambda s: find(s, "p1").pop("timing"), "none", "timing.audioSeconds"),
+    "listening timing zero": (lambda s: set_(find(s, "p1"), "timing", {"audioSeconds": 0}), "none", "timing.audioSeconds"),
+    "listening audio wrong type": (lambda s: set_(find(s, "p1"), "audio", 5), "none", "audio must be null"),
+    "published without audio": (lambda s: (pub(find(s, "p1")), find(s, "p1")["review"].update(blind_solve="pass", facts="pass", teacher="pass", blind_solvers=3)), "none", "without its audio"),
+    "duplicate p2 prompt": (lambda s: set_(find(s, "p2", 1), "prompt", find(s, "p2", 0)["prompt"]), "none", "duplicate p2"),
+    "duplicate p4 script": (lambda s: set_(find(s, "p4", 1), "script", copy.deepcopy(find(s, "p4", 0)["script"])), "none", "duplicate p4"),
+    "p2 keys all A": (lambda s: [x.update(answer="A") for x in s if x["part"] == "p2"], "none", "3-option keys"),
+    "only 5 p1 items": (lambda s: s.remove(find(s, "p1")), "listening", "p1 needs 6"),
+    "p2 ladder skewed": (lambda s: [x.update(difficulty=1) for x in s if x["part"] == "p2"], "listening", "needs 6 to 11"),
+    "12 p3 conversations": (lambda s: s.remove(find(s, "p3", 5)), "listening", "p3 needs 13"),
+    "no three-speaker p3": (lambda s: find(s, "p3", 0)["script"].pop(), "listening", "three-speaker"),
+    "only one p3 graphic": (lambda s: find(s, "p3", 1).pop("graphic"), "listening", "graphic"),
+    "9 p4 talks": (lambda s: s.remove(find(s, "p4", 9)), "listening", "p4 needs 10"),
+    "only one p4 graphic": (lambda s: find(s, "p4", 1).pop("graphic"), "listening", "graphic"),
+    "only two accents": (lambda s: [v.update(accent="US") for x in s for v in ([x.get("speaker")] + list((x.get("speakers") or {}).values()) + list(x.get("script") or [])) if isinstance(v, dict) and v.get("accent") == "AU"] and [v.update(accent="UK") for x in s for v in ([x.get("speaker")] + list(x.get("script") or [])) if isinstance(v, dict) and v.get("accent") == "CA"], "listening", "at least 3 of the 4 accents"),
+}
+
+
 def main():
     problems = 0
     errs = check(good_reading(), "reading")
     print("valid set:", "PASS" if not errs else f"FAIL {errs[:3]}")
     problems += bool(errs)
+    errs = check(good_listening(), "listening")
+    print("valid listening set:", "PASS" if not errs else f"FAIL {errs[:3]}")
+    problems += bool(errs)
+    for name, (fn, spec, expect) in ML.items():
+        s = good_listening(); fn(s); errs = check(s, spec)
+        hit = [e for e in errs if expect in e]
+        status = "caught" if hit else ("WRONG GATE" if errs else "MISSED")
+        problems += not hit
+        print(f"{status:10} listening: {name}" + (f"  -> {hit[0]}" if hit else (f"  -> {errs[0]}" if errs else "")))
 
     for name, (fn, spec, expect) in M.items():
         s = good_reading()
@@ -226,7 +313,7 @@ def main():
             problems += not ok
             print(f"{'clean' if ok else 'BAD CLI':10} CLI {label}")
 
-    print(f"\n{len(M)} named defects, {n} fuzz corruptions, 4 CLI cases: {problems} problems")
+    print(f"\n{len(M)} reading + {len(ML)} listening named defects, {n} fuzz corruptions, 4 CLI cases: {problems} problems")
     sys.exit(1 if problems else 0)
 
 

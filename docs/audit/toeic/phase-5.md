@@ -26,4 +26,4 @@ Gate before this phase: audio method decided (a mix; recorded in `docs/TOEIC-PLA
 - The full target-score picker (600, 750, 850) waits for Phase 7, as planned.
 
 ## Owner sign-off
-Pending (yes / no, date).
+Yes, 2026-10-15.
