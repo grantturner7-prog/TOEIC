@@ -157,3 +157,6 @@ Repo layout note for Phase 4: the app serves content from the IELTS repo's `cont
 
 ## Phase 4 and 5 status (2026-10-14)
 Phase 4 complete: Parts 5, 6 and 7 each have a strategy card (draft, awaiting recording), Skills, and an original practice set that passed the checker and a three-solver blind solve; together they form a full 100-question Reading section. Teacher review is pending on all three sets (`docs/review/`). Phase 5 complete: Reading diagnostic with level, weakest parts and a three-step plan; no total score. Audits: `docs/audit/toeic/phase-4-p5.md`, `phase-4-p6.md`, `phase-4-p7.md`, `phase-5.md`.
+
+## App shape decision (2026-10-15)
+The owner chose **an own-branded TOEIC app on the shared engine**: one codebase and one login behind the scenes, but TOEIC has its own name ("TOEIC Reading" until Listening ships), mark, home, menu (Home, Diagnostic, Progress), login screen with the ETS disclaimer, and its own single-file build (`demo/TOEIC-Strategy.html`). The server presents one brand per hostname (`TOEIC_HOSTS`) or by `PRODUCT_LINE`; teacher and administrator portals are shared. IELTS screens are not linked from the TOEIC brand. Phase 8 adds the TOEIC products to the store and moves set titles onto the translation files.

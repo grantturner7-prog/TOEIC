@@ -6,6 +6,7 @@
 - First product: **Listening & Reading**, released Reading first and sold as a Reading course until Listening ships. Speaking & Writing is a later phase.
 - Build order: **Reading first, then Listening** (Listening needs audio, the biggest cost and risk).
 - Every phase ends in a small audit at `docs/audit/toeic/phase-N.md`; the owner signs off before the next phase.
+- App shape (2026-10-15): own-branded TOEIC app on the shared engine; see the plan's "App shape decision".
 - Architecture to reuse from the IELTS project: `content/` JSON, server gate, teacher/student/admin roles, a `check_*.py` content gate. Add a `toeic` product line next to `ielts`.
 - Original content only (no ETS or published TOEIC material). Same standing rules as IELTS: "students", positive wording, max three items per breakdown, no raw transcripts committed.
 
