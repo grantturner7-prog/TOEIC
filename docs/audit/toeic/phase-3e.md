@@ -29,3 +29,7 @@ Date: 2026-10-15. Code: IELTS repo, branch `claude/toeic-phase3`, commit 51170fd
 
 ## Owner sign-off
 Pending (yes / no, date).
+
+## Follow-up (2026-10-15): section layout
+At the owner's request the TOEIC app now mirrors the IELTS layout: menu Home, Reading, Listening (Speaking and Writing are not shown because the app is unpublished and they do not exist yet). Home holds the diagnostic, a card per section and a progress summary; each section page lists its parts (strategy and Skills) and its practice sets; sets and part pages go back to their section. Checks: `npm test` (100), `e2e-toeic.cjs`, `PRODUCT_LINE=toeic e2e-toeic-brand.cjs` (menu entries, highlighting, section contents, back links, Chinese menu) all green. Found and fixed: switching language inside a practice set left the menu in English.
+Open: the app is named "TOEIC Reading" while Listening is now in the menu; rename when the owner decides the product name.
