@@ -163,3 +163,6 @@ The owner chose **an own-branded TOEIC app on the shared engine**: one codebase 
 
 ## Phase 6a status (2026-10-15)
 Listening scripts for Parts 1 to 4 (100 questions) written, checked and blind-solved from transcripts; audio production is Phase 6b (see `docs/AUDIO-PRODUCTION.md` and `audio/manifest-listening-set-1.json`). Audit: `docs/audit/toeic/phase-6a.md`.
+
+## Independent app (2026-10-15)
+The owner asked for TOEIC to be an independent app with no mention of IELTS anywhere, opening with the name "Genesis TOEIC Strategy and Practice" (Chinese: "Genesis 多益策略與練習"). Built in the IELTS repo: its own page (`app/toeic.html`), entry point (`main-toeic.js`), identity file (`app-config.toeic.js`), TOEIC-only content bundle and single-file build (`demo/TOEIC-Strategy.html`). The server serves it for `PRODUCT_LINE=toeic` or a `TOEIC_HOSTS` hostname. `scripts/check-toeic-independent.mjs` (part of `npm test`) and the build both fail if "IELTS" or "雅思" appears in anything the TOEIC app ships. Teacher and administrator portals are not in the TOEIC app yet; they come with Phase 8.
