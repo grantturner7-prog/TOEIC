@@ -160,3 +160,6 @@ Phase 4 complete: Parts 5, 6 and 7 each have a strategy card (draft, awaiting re
 
 ## App shape decision (2026-10-15)
 The owner chose **an own-branded TOEIC app on the shared engine**: one codebase and one login behind the scenes, but TOEIC has its own name ("TOEIC Reading" until Listening ships), mark, home, menu (Home, Diagnostic, Progress), login screen with the ETS disclaimer, and its own single-file build (`demo/TOEIC-Strategy.html`). The server presents one brand per hostname (`TOEIC_HOSTS`) or by `PRODUCT_LINE`; teacher and administrator portals are shared. IELTS screens are not linked from the TOEIC brand. Phase 8 adds the TOEIC products to the store and moves set titles onto the translation files.
+
+## Phase 6a status (2026-10-15)
+Listening scripts for Parts 1 to 4 (100 questions) written, checked and blind-solved from transcripts; audio production is Phase 6b (see `docs/AUDIO-PRODUCTION.md` and `audio/manifest-listening-set-1.json`). Audit: `docs/audit/toeic/phase-6a.md`.

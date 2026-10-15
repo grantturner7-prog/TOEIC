@@ -1,0 +1,3817 @@
+{
+ "wordsPerSecond": 2.6,
+ "pauses": {
+  "p1": {
+   "between": 1.0,
+   "answer": 5.0
+  },
+  "p2": {
+   "between": 1.0,
+   "answer": 5.0
+  },
+  "p3": {
+   "question": 8.0
+  },
+  "p4": {
+   "question": 8.0
+  }
+ },
+ "narrator": {
+  "accent": "US",
+  "gender": "W"
+ },
+ "segments": [
+  {
+   "set": "p1-set-1",
+   "item": "p1-0001",
+   "seq": 0,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "Number 1. Look at the picture.",
+   "pauseAfterSeconds": 1.5,
+   "role": "direction"
+  },
+  {
+   "set": "p1-set-1",
+   "item": "p1-0001",
+   "seq": 1,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "A. She's typing on a laptop.",
+   "pauseAfterSeconds": 1.0,
+   "role": "option"
+  },
+  {
+   "set": "p1-set-1",
+   "item": "p1-0001",
+   "seq": 2,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "B. She's closing the laptop.",
+   "pauseAfterSeconds": 1.0,
+   "role": "option"
+  },
+  {
+   "set": "p1-set-1",
+   "item": "p1-0001",
+   "seq": 3,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "C. She's wiping the desk.",
+   "pauseAfterSeconds": 1.0,
+   "role": "option"
+  },
+  {
+   "set": "p1-set-1",
+   "item": "p1-0001",
+   "seq": 4,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "D. She's drinking from a cup.",
+   "pauseAfterSeconds": 5.0,
+   "role": "option"
+  },
+  {
+   "set": "p1-set-1",
+   "item": "p1-0002",
+   "seq": 0,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "Number 2. Look at the picture.",
+   "pauseAfterSeconds": 1.5,
+   "role": "direction"
+  },
+  {
+   "set": "p1-set-1",
+   "item": "p1-0002",
+   "seq": 1,
+   "voice": {
+    "accent": "UK",
+    "gender": "M"
+   },
+   "text": "A. He's hanging up some jackets.",
+   "pauseAfterSeconds": 1.0,
+   "role": "option"
+  },
+  {
+   "set": "p1-set-1",
+   "item": "p1-0002",
+   "seq": 2,
+   "voice": {
+    "accent": "UK",
+    "gender": "M"
+   },
+   "text": "B. They're folding clothes on the counter.",
+   "pauseAfterSeconds": 1.0,
+   "role": "option"
+  },
+  {
+   "set": "p1-set-1",
+   "item": "p1-0002",
+   "seq": 3,
+   "voice": {
+    "accent": "UK",
+    "gender": "M"
+   },
+   "text": "C. He's handing a bag to a customer.",
+   "pauseAfterSeconds": 1.0,
+   "role": "option"
+  },
+  {
+   "set": "p1-set-1",
+   "item": "p1-0002",
+   "seq": 4,
+   "voice": {
+    "accent": "UK",
+    "gender": "M"
+   },
+   "text": "D. She's trying on a jacket.",
+   "pauseAfterSeconds": 5.0,
+   "role": "option"
+  },
+  {
+   "set": "p1-set-1",
+   "item": "p1-0003",
+   "seq": 0,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "Number 3. Look at the picture.",
+   "pauseAfterSeconds": 1.5,
+   "role": "direction"
+  },
+  {
+   "set": "p1-set-1",
+   "item": "p1-0003",
+   "seq": 1,
+   "voice": {
+    "accent": "AU",
+    "gender": "W"
+   },
+   "text": "A. The umbrellas are leaning against a wall.",
+   "pauseAfterSeconds": 1.0,
+   "role": "option"
+  },
+  {
+   "set": "p1-set-1",
+   "item": "p1-0003",
+   "seq": 2,
+   "voice": {
+    "accent": "AU",
+    "gender": "W"
+   },
+   "text": "B. Some umbrellas have been opened over the tables.",
+   "pauseAfterSeconds": 1.0,
+   "role": "option"
+  },
+  {
+   "set": "p1-set-1",
+   "item": "p1-0003",
+   "seq": 3,
+   "voice": {
+    "accent": "AU",
+    "gender": "W"
+   },
+   "text": "C. The chairs are stacked in a corner.",
+   "pauseAfterSeconds": 1.0,
+   "role": "option"
+  },
+  {
+   "set": "p1-set-1",
+   "item": "p1-0003",
+   "seq": 4,
+   "voice": {
+    "accent": "AU",
+    "gender": "W"
+   },
+   "text": "D. Some napkins are being folded.",
+   "pauseAfterSeconds": 5.0,
+   "role": "option"
+  },
+  {
+   "set": "p1-set-1",
+   "item": "p1-0004",
+   "seq": 0,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "Number 4. Look at the picture.",
+   "pauseAfterSeconds": 1.5,
+   "role": "direction"
+  },
+  {
+   "set": "p1-set-1",
+   "item": "p1-0004",
+   "seq": 1,
+   "voice": {
+    "accent": "CA",
+    "gender": "M"
+   },
+   "text": "A. A forklift is parked next to some shelves.",
+   "pauseAfterSeconds": 1.0,
+   "role": "option"
+  },
+  {
+   "set": "p1-set-1",
+   "item": "p1-0004",
+   "seq": 2,
+   "voice": {
+    "accent": "CA",
+    "gender": "M"
+   },
+   "text": "B. Pallets are being loaded onto a truck.",
+   "pauseAfterSeconds": 1.0,
+   "role": "option"
+  },
+  {
+   "set": "p1-set-1",
+   "item": "p1-0004",
+   "seq": 3,
+   "voice": {
+    "accent": "CA",
+    "gender": "M"
+   },
+   "text": "C. Rolls of material are hanging from the ceiling.",
+   "pauseAfterSeconds": 1.0,
+   "role": "option"
+  },
+  {
+   "set": "p1-set-1",
+   "item": "p1-0004",
+   "seq": 4,
+   "voice": {
+    "accent": "CA",
+    "gender": "M"
+   },
+   "text": "D. The forklift is lifting some boxes.",
+   "pauseAfterSeconds": 5.0,
+   "role": "option"
+  },
+  {
+   "set": "p1-set-1",
+   "item": "p1-0005",
+   "seq": 0,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "Number 5. Look at the picture.",
+   "pauseAfterSeconds": 1.5,
+   "role": "direction"
+  },
+  {
+   "set": "p1-set-1",
+   "item": "p1-0005",
+   "seq": 1,
+   "voice": {
+    "accent": "UK",
+    "gender": "W"
+   },
+   "text": "A. A sign is being hung above the platform.",
+   "pauseAfterSeconds": 1.0,
+   "role": "option"
+  },
+  {
+   "set": "p1-set-1",
+   "item": "p1-0005",
+   "seq": 2,
+   "voice": {
+    "accent": "UK",
+    "gender": "W"
+   },
+   "text": "B. Travelers are waiting near their suitcases.",
+   "pauseAfterSeconds": 1.0,
+   "role": "option"
+  },
+  {
+   "set": "p1-set-1",
+   "item": "p1-0005",
+   "seq": 3,
+   "voice": {
+    "accent": "UK",
+    "gender": "W"
+   },
+   "text": "C. Some suitcases are being weighed.",
+   "pauseAfterSeconds": 1.0,
+   "role": "option"
+  },
+  {
+   "set": "p1-set-1",
+   "item": "p1-0005",
+   "seq": 4,
+   "voice": {
+    "accent": "UK",
+    "gender": "W"
+   },
+   "text": "D. A passenger is boarding the train.",
+   "pauseAfterSeconds": 5.0,
+   "role": "option"
+  },
+  {
+   "set": "p1-set-1",
+   "item": "p1-0006",
+   "seq": 0,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "Number 6. Look at the picture.",
+   "pauseAfterSeconds": 1.5,
+   "role": "direction"
+  },
+  {
+   "set": "p1-set-1",
+   "item": "p1-0006",
+   "seq": 1,
+   "voice": {
+    "accent": "US",
+    "gender": "M"
+   },
+   "text": "A. A woman is filling a cup with water.",
+   "pauseAfterSeconds": 1.0,
+   "role": "option"
+  },
+  {
+   "set": "p1-set-1",
+   "item": "p1-0006",
+   "seq": 2,
+   "voice": {
+    "accent": "US",
+    "gender": "M"
+   },
+   "text": "B. Patients are lining up at the counter.",
+   "pauseAfterSeconds": 1.0,
+   "role": "option"
+  },
+  {
+   "set": "p1-set-1",
+   "item": "p1-0006",
+   "seq": 3,
+   "voice": {
+    "accent": "US",
+    "gender": "M"
+   },
+   "text": "C. Some posters are being put up on the wall.",
+   "pauseAfterSeconds": 1.0,
+   "role": "option"
+  },
+  {
+   "set": "p1-set-1",
+   "item": "p1-0006",
+   "seq": 4,
+   "voice": {
+    "accent": "US",
+    "gender": "M"
+   },
+   "text": "D. A clipboard is being handed across the desk.",
+   "pauseAfterSeconds": 5.0,
+   "role": "option"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0001",
+   "seq": 0,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "Number 1.",
+   "pauseAfterSeconds": 1.0,
+   "role": "direction"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0001",
+   "seq": 1,
+   "voice": {
+    "accent": "CA",
+    "gender": "W"
+   },
+   "text": "Where did you put the extra toner cartridges?",
+   "pauseAfterSeconds": 1.0,
+   "role": "prompt"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0001",
+   "seq": 2,
+   "voice": {
+    "accent": "AU",
+    "gender": "M"
+   },
+   "text": "A. Right after the meeting yesterday, I think.",
+   "pauseAfterSeconds": 1.0,
+   "role": "option"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0001",
+   "seq": 3,
+   "voice": {
+    "accent": "AU",
+    "gender": "M"
+   },
+   "text": "B. On the bottom shelf of the supply cabinet.",
+   "pauseAfterSeconds": 1.0,
+   "role": "option"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0001",
+   "seq": 4,
+   "voice": {
+    "accent": "AU",
+    "gender": "M"
+   },
+   "text": "C. Sure, I'll make some extra copies for you.",
+   "pauseAfterSeconds": 5.0,
+   "role": "option"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0002",
+   "seq": 0,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "Number 2.",
+   "pauseAfterSeconds": 1.0,
+   "role": "direction"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0002",
+   "seq": 1,
+   "voice": {
+    "accent": "AU",
+    "gender": "M"
+   },
+   "text": "How long is the shuttle ride from the hotel to the airport?",
+   "pauseAfterSeconds": 1.0,
+   "role": "prompt"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0002",
+   "seq": 2,
+   "voice": {
+    "accent": "CA",
+    "gender": "W"
+   },
+   "text": "A. Roughly forty minutes, if the traffic's light.",
+   "pauseAfterSeconds": 1.0,
+   "role": "option"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0002",
+   "seq": 3,
+   "voice": {
+    "accent": "CA",
+    "gender": "W"
+   },
+   "text": "B. It picks up guests right outside the lobby.",
+   "pauseAfterSeconds": 1.0,
+   "role": "option"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0002",
+   "seq": 4,
+   "voice": {
+    "accent": "CA",
+    "gender": "W"
+   },
+   "text": "C. The last one left about ten minutes ago.",
+   "pauseAfterSeconds": 5.0,
+   "role": "option"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0003",
+   "seq": 0,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "Number 3.",
+   "pauseAfterSeconds": 1.0,
+   "role": "direction"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0003",
+   "seq": 1,
+   "voice": {
+    "accent": "UK",
+    "gender": "W"
+   },
+   "text": "Why hasn't the Hartwell invoice been paid yet?",
+   "pauseAfterSeconds": 1.0,
+   "role": "prompt"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0003",
+   "seq": 2,
+   "voice": {
+    "accent": "US",
+    "gender": "M"
+   },
+   "text": "A. The finance department's on the third floor.",
+   "pauseAfterSeconds": 1.0,
+   "role": "option"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0003",
+   "seq": 3,
+   "voice": {
+    "accent": "US",
+    "gender": "M"
+   },
+   "text": "B. He paid them a visit on Thursday afternoon.",
+   "pauseAfterSeconds": 1.0,
+   "role": "option"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0003",
+   "seq": 4,
+   "voice": {
+    "accent": "US",
+    "gender": "M"
+   },
+   "text": "C. Accounting's still waiting for the purchase order.",
+   "pauseAfterSeconds": 5.0,
+   "role": "option"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0004",
+   "seq": 0,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "Number 4.",
+   "pauseAfterSeconds": 1.0,
+   "role": "direction"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0004",
+   "seq": 1,
+   "voice": {
+    "accent": "CA",
+    "gender": "M"
+   },
+   "text": "Do you have a table for four available tonight?",
+   "pauseAfterSeconds": 1.0,
+   "role": "prompt"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0004",
+   "seq": 2,
+   "voice": {
+    "accent": "AU",
+    "gender": "W"
+   },
+   "text": "A. I'd like the roast chicken, please.",
+   "pauseAfterSeconds": 1.0,
+   "role": "option"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0004",
+   "seq": 3,
+   "voice": {
+    "accent": "AU",
+    "gender": "W"
+   },
+   "text": "B. Yes, there's one free at seven thirty.",
+   "pauseAfterSeconds": 1.0,
+   "role": "option"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0004",
+   "seq": 4,
+   "voice": {
+    "accent": "AU",
+    "gender": "W"
+   },
+   "text": "C. Four of us ate here last Friday.",
+   "pauseAfterSeconds": 5.0,
+   "role": "option"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0005",
+   "seq": 0,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "Number 5.",
+   "pauseAfterSeconds": 1.0,
+   "role": "direction"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0005",
+   "seq": 1,
+   "voice": {
+    "accent": "US",
+    "gender": "M"
+   },
+   "text": "Would you rather have the software update installed tonight or over the weekend?",
+   "pauseAfterSeconds": 1.0,
+   "role": "prompt"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0005",
+   "seq": 2,
+   "voice": {
+    "accent": "UK",
+    "gender": "W"
+   },
+   "text": "A. Over the weekend, when nobody's using the system.",
+   "pauseAfterSeconds": 1.0,
+   "role": "option"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0005",
+   "seq": 3,
+   "voice": {
+    "accent": "UK",
+    "gender": "W"
+   },
+   "text": "B. He installed a new printer earlier this morning.",
+   "pauseAfterSeconds": 1.0,
+   "role": "option"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0005",
+   "seq": 4,
+   "voice": {
+    "accent": "UK",
+    "gender": "W"
+   },
+   "text": "C. No, the software was pretty expensive, actually.",
+   "pauseAfterSeconds": 5.0,
+   "role": "option"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0006",
+   "seq": 0,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "Number 6.",
+   "pauseAfterSeconds": 1.0,
+   "role": "direction"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0006",
+   "seq": 1,
+   "voice": {
+    "accent": "AU",
+    "gender": "W"
+   },
+   "text": "The new hires start orientation on Monday, don't they?",
+   "pauseAfterSeconds": 1.0,
+   "role": "prompt"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0006",
+   "seq": 2,
+   "voice": {
+    "accent": "CA",
+    "gender": "M"
+   },
+   "text": "A. We hired three people last spring.",
+   "pauseAfterSeconds": 1.0,
+   "role": "option"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0006",
+   "seq": 3,
+   "voice": {
+    "accent": "CA",
+    "gender": "M"
+   },
+   "text": "B. No, HR pushed it back to Wednesday.",
+   "pauseAfterSeconds": 1.0,
+   "role": "option"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0006",
+   "seq": 4,
+   "voice": {
+    "accent": "CA",
+    "gender": "M"
+   },
+   "text": "C. I started here about a year ago.",
+   "pauseAfterSeconds": 5.0,
+   "role": "option"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0007",
+   "seq": 0,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "Number 7.",
+   "pauseAfterSeconds": 1.0,
+   "role": "direction"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0007",
+   "seq": 1,
+   "voice": {
+    "accent": "UK",
+    "gender": "M"
+   },
+   "text": "Would you like a bag for those shoes?",
+   "pauseAfterSeconds": 1.0,
+   "role": "prompt"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0007",
+   "seq": 2,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "A. I bought them at the mall last week.",
+   "pauseAfterSeconds": 1.0,
+   "role": "option"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0007",
+   "seq": 3,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "B. The handbags are over on the second floor.",
+   "pauseAfterSeconds": 1.0,
+   "role": "option"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0007",
+   "seq": 4,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "C. Yes, please, they'll be easier to carry.",
+   "pauseAfterSeconds": 5.0,
+   "role": "option"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0008",
+   "seq": 0,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "Number 8.",
+   "pauseAfterSeconds": 1.0,
+   "role": "direction"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0008",
+   "seq": 1,
+   "voice": {
+    "accent": "CA",
+    "gender": "W"
+   },
+   "text": "We should move the product launch to the larger ballroom.",
+   "pauseAfterSeconds": 1.0,
+   "role": "prompt"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0008",
+   "seq": 2,
+   "voice": {
+    "accent": "AU",
+    "gender": "M"
+   },
+   "text": "A. I moved into a bigger apartment last month.",
+   "pauseAfterSeconds": 1.0,
+   "role": "option"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0008",
+   "seq": 3,
+   "voice": {
+    "accent": "AU",
+    "gender": "M"
+   },
+   "text": "B. Good idea, the small room won't fit everyone.",
+   "pauseAfterSeconds": 1.0,
+   "role": "option"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0008",
+   "seq": 4,
+   "voice": {
+    "accent": "AU",
+    "gender": "M"
+   },
+   "text": "C. The ballroom's on the second floor, by the entrance.",
+   "pauseAfterSeconds": 5.0,
+   "role": "option"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0009",
+   "seq": 0,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "Number 9.",
+   "pauseAfterSeconds": 1.0,
+   "role": "direction"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0009",
+   "seq": 1,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "When does the next shuttle to the airport leave?",
+   "pauseAfterSeconds": 1.0,
+   "role": "prompt"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0009",
+   "seq": 2,
+   "voice": {
+    "accent": "UK",
+    "gender": "M"
+   },
+   "text": "A. At nine fifteen, so you've got time.",
+   "pauseAfterSeconds": 1.0,
+   "role": "option"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0009",
+   "seq": 3,
+   "voice": {
+    "accent": "UK",
+    "gender": "M"
+   },
+   "text": "B. Sure, I'll leave a message at the desk.",
+   "pauseAfterSeconds": 1.0,
+   "role": "option"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0009",
+   "seq": 4,
+   "voice": {
+    "accent": "UK",
+    "gender": "M"
+   },
+   "text": "C. It stops right outside the main entrance.",
+   "pauseAfterSeconds": 5.0,
+   "role": "option"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0010",
+   "seq": 0,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "Number 10.",
+   "pauseAfterSeconds": 1.0,
+   "role": "direction"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0010",
+   "seq": 1,
+   "voice": {
+    "accent": "AU",
+    "gender": "M"
+   },
+   "text": "Where did you put the new price tags for the winter coats?",
+   "pauseAfterSeconds": 1.0,
+   "role": "prompt"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0010",
+   "seq": 2,
+   "voice": {
+    "accent": "CA",
+    "gender": "W"
+   },
+   "text": "A. They're in the drawer under the register.",
+   "pauseAfterSeconds": 1.0,
+   "role": "option"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0010",
+   "seq": 3,
+   "voice": {
+    "accent": "CA",
+    "gender": "W"
+   },
+   "text": "B. Right after we opened up this morning.",
+   "pauseAfterSeconds": 1.0,
+   "role": "option"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0010",
+   "seq": 4,
+   "voice": {
+    "accent": "CA",
+    "gender": "W"
+   },
+   "text": "C. Yes, the new bags are a really great price.",
+   "pauseAfterSeconds": 5.0,
+   "role": "option"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0011",
+   "seq": 0,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "Number 11.",
+   "pauseAfterSeconds": 1.0,
+   "role": "direction"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0011",
+   "seq": 1,
+   "voice": {
+    "accent": "UK",
+    "gender": "W"
+   },
+   "text": "Why hasn't the lab sent over Mr. Reyes's blood test results yet?",
+   "pauseAfterSeconds": 1.0,
+   "role": "prompt"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0011",
+   "seq": 2,
+   "voice": {
+    "accent": "US",
+    "gender": "M"
+   },
+   "text": "A. Apparently a sample had to be tested again.",
+   "pauseAfterSeconds": 1.0,
+   "role": "option"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0011",
+   "seq": 3,
+   "voice": {
+    "accent": "US",
+    "gender": "M"
+   },
+   "text": "B. They sent over his X-ray results last Friday.",
+   "pauseAfterSeconds": 1.0,
+   "role": "option"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0011",
+   "seq": 4,
+   "voice": {
+    "accent": "US",
+    "gender": "M"
+   },
+   "text": "C. The lab's on the third floor, next to radiology.",
+   "pauseAfterSeconds": 5.0,
+   "role": "option"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0012",
+   "seq": 0,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "Number 12.",
+   "pauseAfterSeconds": 1.0,
+   "role": "direction"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0012",
+   "seq": 1,
+   "voice": {
+    "accent": "CA",
+    "gender": "M"
+   },
+   "text": "Do you have a table for four by the window?",
+   "pauseAfterSeconds": 1.0,
+   "role": "prompt"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0012",
+   "seq": 2,
+   "voice": {
+    "accent": "AU",
+    "gender": "W"
+   },
+   "text": "A. Yes, there's one free right over here.",
+   "pauseAfterSeconds": 1.0,
+   "role": "option"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0012",
+   "seq": 3,
+   "voice": {
+    "accent": "AU",
+    "gender": "W"
+   },
+   "text": "B. We replaced all the windows last week.",
+   "pauseAfterSeconds": 1.0,
+   "role": "option"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0012",
+   "seq": 4,
+   "voice": {
+    "accent": "AU",
+    "gender": "W"
+   },
+   "text": "C. Side salads are four dollars extra each.",
+   "pauseAfterSeconds": 5.0,
+   "role": "option"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0013",
+   "seq": 0,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "Number 13.",
+   "pauseAfterSeconds": 1.0,
+   "role": "direction"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0013",
+   "seq": 1,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "Would you rather sign a one-year lease or go month to month?",
+   "pauseAfterSeconds": 1.0,
+   "role": "prompt"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0013",
+   "seq": 2,
+   "voice": {
+    "accent": "AU",
+    "gender": "M"
+   },
+   "text": "A. Yes, I'd much rather just take the stairs.",
+   "pauseAfterSeconds": 1.0,
+   "role": "option"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0013",
+   "seq": 3,
+   "voice": {
+    "accent": "AU",
+    "gender": "M"
+   },
+   "text": "B. The full year, so the rent can't go up.",
+   "pauseAfterSeconds": 1.0,
+   "role": "option"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0013",
+   "seq": 4,
+   "voice": {
+    "accent": "AU",
+    "gender": "M"
+   },
+   "text": "C. I leased a car from them last spring.",
+   "pauseAfterSeconds": 5.0,
+   "role": "option"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0014",
+   "seq": 0,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "Number 14.",
+   "pauseAfterSeconds": 1.0,
+   "role": "direction"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0014",
+   "seq": 1,
+   "voice": {
+    "accent": "UK",
+    "gender": "M"
+   },
+   "text": "Hi there, I'd like to check in for the six-forty flight to Denver.",
+   "pauseAfterSeconds": 1.0,
+   "role": "prompt"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0014",
+   "seq": 2,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "A. I checked the weather before I left.",
+   "pauseAfterSeconds": 1.0,
+   "role": "option"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0014",
+   "seq": 3,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "B. No, I've never been to Denver before.",
+   "pauseAfterSeconds": 1.0,
+   "role": "option"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0014",
+   "seq": 4,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "C. Sure, I'll need to see your photo ID.",
+   "pauseAfterSeconds": 5.0,
+   "role": "option"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0015",
+   "seq": 0,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "Number 15.",
+   "pauseAfterSeconds": 1.0,
+   "role": "direction"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0015",
+   "seq": 1,
+   "voice": {
+    "accent": "AU",
+    "gender": "W"
+   },
+   "text": "How about moving the clearance rack up to the front of the store?",
+   "pauseAfterSeconds": 1.0,
+   "role": "prompt"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0015",
+   "seq": 2,
+   "voice": {
+    "accent": "CA",
+    "gender": "M"
+   },
+   "text": "A. Good idea, shoppers would see it right away.",
+   "pauseAfterSeconds": 1.0,
+   "role": "option"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0015",
+   "seq": 3,
+   "voice": {
+    "accent": "CA",
+    "gender": "M"
+   },
+   "text": "B. The front door was locked when I got here.",
+   "pauseAfterSeconds": 1.0,
+   "role": "option"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0015",
+   "seq": 4,
+   "voice": {
+    "accent": "CA",
+    "gender": "M"
+   },
+   "text": "C. I moved here from the Riverside branch.",
+   "pauseAfterSeconds": 5.0,
+   "role": "option"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0016",
+   "seq": 0,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "Number 16.",
+   "pauseAfterSeconds": 1.0,
+   "role": "direction"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0016",
+   "seq": 1,
+   "voice": {
+    "accent": "US",
+    "gender": "M"
+   },
+   "text": "Could you send the updated patient intake forms to the Oak Street clinic by Friday?",
+   "pauseAfterSeconds": 1.0,
+   "role": "prompt"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0016",
+   "seq": 2,
+   "voice": {
+    "accent": "UK",
+    "gender": "W"
+   },
+   "text": "A. That patient was sent home from the clinic.",
+   "pauseAfterSeconds": 1.0,
+   "role": "option"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0016",
+   "seq": 3,
+   "voice": {
+    "accent": "UK",
+    "gender": "W"
+   },
+   "text": "B. The Oak Street clinic opens at eight on Friday.",
+   "pauseAfterSeconds": 1.0,
+   "role": "option"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0016",
+   "seq": 4,
+   "voice": {
+    "accent": "UK",
+    "gender": "W"
+   },
+   "text": "C. They'll go out Wednesday, well before Friday.",
+   "pauseAfterSeconds": 5.0,
+   "role": "option"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0017",
+   "seq": 0,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "Number 17.",
+   "pauseAfterSeconds": 1.0,
+   "role": "direction"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0017",
+   "seq": 1,
+   "voice": {
+    "accent": "US",
+    "gender": "M"
+   },
+   "text": "Where did you leave the safety goggles for the night shift?",
+   "pauseAfterSeconds": 1.0,
+   "role": "prompt"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0017",
+   "seq": 2,
+   "voice": {
+    "accent": "UK",
+    "gender": "W"
+   },
+   "text": "A. In the locker by the loading door.",
+   "pauseAfterSeconds": 1.0,
+   "role": "option"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0017",
+   "seq": 3,
+   "voice": {
+    "accent": "UK",
+    "gender": "W"
+   },
+   "text": "B. Yes, the night crew needs new ones.",
+   "pauseAfterSeconds": 1.0,
+   "role": "option"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0017",
+   "seq": 4,
+   "voice": {
+    "accent": "UK",
+    "gender": "W"
+   },
+   "text": "C. Just before six, when my shift ended.",
+   "pauseAfterSeconds": 5.0,
+   "role": "option"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0018",
+   "seq": 0,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "Number 18.",
+   "pauseAfterSeconds": 1.0,
+   "role": "direction"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0018",
+   "seq": 1,
+   "voice": {
+    "accent": "AU",
+    "gender": "W"
+   },
+   "text": "When will the quarterly expense report be ready?",
+   "pauseAfterSeconds": 1.0,
+   "role": "prompt"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0018",
+   "seq": 2,
+   "voice": {
+    "accent": "CA",
+    "gender": "M"
+   },
+   "text": "A. He reports to the finance director now.",
+   "pauseAfterSeconds": 1.0,
+   "role": "option"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0018",
+   "seq": 3,
+   "voice": {
+    "accent": "CA",
+    "gender": "M"
+   },
+   "text": "B. Yes, the expenses were higher than usual.",
+   "pauseAfterSeconds": 1.0,
+   "role": "option"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0018",
+   "seq": 4,
+   "voice": {
+    "accent": "CA",
+    "gender": "M"
+   },
+   "text": "C. Friday, once the last receipts come in.",
+   "pauseAfterSeconds": 5.0,
+   "role": "option"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0019",
+   "seq": 0,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "Number 19.",
+   "pauseAfterSeconds": 1.0,
+   "role": "direction"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0019",
+   "seq": 1,
+   "voice": {
+    "accent": "UK",
+    "gender": "M"
+   },
+   "text": "Why did the client reject the slogan we proposed for the spring campaign?",
+   "pauseAfterSeconds": 1.0,
+   "role": "prompt"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0019",
+   "seq": 2,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "A. Yes, they rejected it late last Thursday.",
+   "pauseAfterSeconds": 1.0,
+   "role": "option"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0019",
+   "seq": 3,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "B. The slogan goes on all the spring posters.",
+   "pauseAfterSeconds": 1.0,
+   "role": "option"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0019",
+   "seq": 4,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "C. They didn't say, but Dana's calling them today.",
+   "pauseAfterSeconds": 5.0,
+   "role": "option"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0020",
+   "seq": 0,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "Number 20.",
+   "pauseAfterSeconds": 1.0,
+   "role": "direction"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0020",
+   "seq": 1,
+   "voice": {
+    "accent": "CA",
+    "gender": "W"
+   },
+   "text": "Have the name badges for the conference arrived yet?",
+   "pauseAfterSeconds": 1.0,
+   "role": "prompt"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0020",
+   "seq": 2,
+   "voice": {
+    "accent": "AU",
+    "gender": "M"
+   },
+   "text": "A. Yes, the courier brought them an hour ago.",
+   "pauseAfterSeconds": 1.0,
+   "role": "option"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0020",
+   "seq": 3,
+   "voice": {
+    "accent": "AU",
+    "gender": "M"
+   },
+   "text": "B. The conference is in the main ballroom.",
+   "pauseAfterSeconds": 1.0,
+   "role": "option"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0020",
+   "seq": 4,
+   "voice": {
+    "accent": "AU",
+    "gender": "M"
+   },
+   "text": "C. I'll arrive at the venue around nine.",
+   "pauseAfterSeconds": 5.0,
+   "role": "option"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0021",
+   "seq": 0,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "Number 21.",
+   "pauseAfterSeconds": 1.0,
+   "role": "direction"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0021",
+   "seq": 1,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "Would you rather install the update tonight or wait until Saturday?",
+   "pauseAfterSeconds": 1.0,
+   "role": "prompt"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0021",
+   "seq": 2,
+   "voice": {
+    "accent": "UK",
+    "gender": "M"
+   },
+   "text": "A. Our IT team moved upstairs last Saturday.",
+   "pauseAfterSeconds": 1.0,
+   "role": "option"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0021",
+   "seq": 3,
+   "voice": {
+    "accent": "UK",
+    "gender": "M"
+   },
+   "text": "B. Tonight. Nobody's on the system after six.",
+   "pauseAfterSeconds": 1.0,
+   "role": "option"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0021",
+   "seq": 4,
+   "voice": {
+    "accent": "UK",
+    "gender": "M"
+   },
+   "text": "C. Yes, I'd much rather have the newer version.",
+   "pauseAfterSeconds": 5.0,
+   "role": "option"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0022",
+   "seq": 0,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "Number 22.",
+   "pauseAfterSeconds": 1.0,
+   "role": "direction"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0022",
+   "seq": 1,
+   "voice": {
+    "accent": "AU",
+    "gender": "M"
+   },
+   "text": "The bank approved the loan for the new warehouse, didn't it?",
+   "pauseAfterSeconds": 1.0,
+   "role": "prompt"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0022",
+   "seq": 2,
+   "voice": {
+    "accent": "CA",
+    "gender": "W"
+   },
+   "text": "A. No, I don't approve of the new design.",
+   "pauseAfterSeconds": 1.0,
+   "role": "option"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0022",
+   "seq": 3,
+   "voice": {
+    "accent": "CA",
+    "gender": "W"
+   },
+   "text": "B. The loan officer hasn't called us back.",
+   "pauseAfterSeconds": 1.0,
+   "role": "option"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0022",
+   "seq": 4,
+   "voice": {
+    "accent": "CA",
+    "gender": "W"
+   },
+   "text": "C. It's the biggest warehouse on Harbor Road.",
+   "pauseAfterSeconds": 5.0,
+   "role": "option"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0023",
+   "seq": 0,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "Number 23.",
+   "pauseAfterSeconds": 1.0,
+   "role": "direction"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0023",
+   "seq": 1,
+   "voice": {
+    "accent": "UK",
+    "gender": "W"
+   },
+   "text": "Could you reset my password before the meeting starts?",
+   "pauseAfterSeconds": 1.0,
+   "role": "prompt"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0023",
+   "seq": 2,
+   "voice": {
+    "accent": "US",
+    "gender": "M"
+   },
+   "text": "A. No, my passport's valid until next year.",
+   "pauseAfterSeconds": 1.0,
+   "role": "option"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0023",
+   "seq": 3,
+   "voice": {
+    "accent": "US",
+    "gender": "M"
+   },
+   "text": "B. Yes, it was nice meeting you too.",
+   "pauseAfterSeconds": 1.0,
+   "role": "option"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0023",
+   "seq": 4,
+   "voice": {
+    "accent": "US",
+    "gender": "M"
+   },
+   "text": "C. Sure, I'll take care of it right away.",
+   "pauseAfterSeconds": 5.0,
+   "role": "option"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0024",
+   "seq": 0,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "Number 24.",
+   "pauseAfterSeconds": 1.0,
+   "role": "direction"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0024",
+   "seq": 1,
+   "voice": {
+    "accent": "CA",
+    "gender": "M"
+   },
+   "text": "Why don't we move the awards dinner to the rooftop terrace this year?",
+   "pauseAfterSeconds": 1.0,
+   "role": "prompt"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0024",
+   "seq": 2,
+   "voice": {
+    "accent": "AU",
+    "gender": "W"
+   },
+   "text": "A. I moved to the marketing team about a month ago.",
+   "pauseAfterSeconds": 1.0,
+   "role": "option"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0024",
+   "seq": 3,
+   "voice": {
+    "accent": "AU",
+    "gender": "W"
+   },
+   "text": "B. Good idea, I'll check if it's free that night.",
+   "pauseAfterSeconds": 1.0,
+   "role": "option"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0024",
+   "seq": 4,
+   "voice": {
+    "accent": "AU",
+    "gender": "W"
+   },
+   "text": "C. The dinner usually starts at seven in the evening.",
+   "pauseAfterSeconds": 5.0,
+   "role": "option"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0025",
+   "seq": 0,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "Number 25.",
+   "pauseAfterSeconds": 1.0,
+   "role": "direction"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0025",
+   "seq": 1,
+   "voice": {
+    "accent": "US",
+    "gender": "M"
+   },
+   "text": "The packaging line's been stopping every twenty minutes since lunch.",
+   "pauseAfterSeconds": 1.0,
+   "role": "prompt"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0025",
+   "seq": 2,
+   "voice": {
+    "accent": "UK",
+    "gender": "W"
+   },
+   "text": "A. Yes, the order took about twenty minutes to pack.",
+   "pauseAfterSeconds": 1.0,
+   "role": "option"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0025",
+   "seq": 3,
+   "voice": {
+    "accent": "UK",
+    "gender": "W"
+   },
+   "text": "B. The canteen serves lunch from twelve to one.",
+   "pauseAfterSeconds": 1.0,
+   "role": "option"
+  },
+  {
+   "set": "p2-set-1",
+   "item": "p2-0025",
+   "seq": 4,
+   "voice": {
+    "accent": "UK",
+    "gender": "W"
+   },
+   "text": "C. I'll get maintenance to look at it right away.",
+   "pauseAfterSeconds": 5.0,
+   "role": "option"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0001",
+   "seq": 0,
+   "voice": {
+    "accent": "CA",
+    "gender": "W"
+   },
+   "text": "Hi, Daniel. I'd like to reserve the large meeting room for a client visit on Thursday afternoon. Is it available at three?",
+   "pauseAfterSeconds": 0.6,
+   "role": "script"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0001",
+   "seq": 1,
+   "voice": {
+    "accent": "US",
+    "gender": "M"
+   },
+   "text": "Let me check the calendar. There's a training session in there until two, but after that it's free for the rest of the day.",
+   "pauseAfterSeconds": 0.6,
+   "role": "script"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0001",
+   "seq": 2,
+   "voice": {
+    "accent": "CA",
+    "gender": "W"
+   },
+   "text": "Perfect. Please book it for me from three to four thirty.",
+   "pauseAfterSeconds": 0.6,
+   "role": "script"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0001",
+   "seq": 3,
+   "voice": {
+    "accent": "US",
+    "gender": "M"
+   },
+   "text": "Done. It's on the calendar now. Do you want the projector set up too?",
+   "pauseAfterSeconds": 0.6,
+   "role": "script"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0001",
+   "seq": 4,
+   "voice": {
+    "accent": "CA",
+    "gender": "W"
+   },
+   "text": "Yes, please. I'll be showing slides. I'm going to email you the names of the four visitors right now, so you can print their badges.",
+   "pauseAfterSeconds": 0.6,
+   "role": "script"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0001",
+   "seq": 5,
+   "voice": {
+    "accent": "US",
+    "gender": "M"
+   },
+   "text": "Great. I'll have the room, the projector and the badges ready by three on Thursday.",
+   "pauseAfterSeconds": 0.6,
+   "role": "script"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0001",
+   "seq": 6,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "Question 1. Why is the woman talking to the man?",
+   "pauseAfterSeconds": 8.0,
+   "role": "question"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0001",
+   "seq": 7,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "Question 2. What time will the client visit begin?",
+   "pauseAfterSeconds": 8.0,
+   "role": "question"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0001",
+   "seq": 8,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "Question 3. What will the woman most likely do next?",
+   "pauseAfterSeconds": 8.0,
+   "role": "question"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0002",
+   "seq": 0,
+   "voice": {
+    "accent": "AU",
+    "gender": "M"
+   },
+   "text": "Hello, this is Marcus in the design team. I finished an evening course last month, and I'd like to be reimbursed for the tuition. Which form do I need?",
+   "pauseAfterSeconds": 0.6,
+   "role": "script"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0002",
+   "seq": 1,
+   "voice": {
+    "accent": "UK",
+    "gender": "W"
+   },
+   "text": "All the forms moved to the staff portal in September. Log in, open the Benefits tab, and the course reimbursement form is right at the top.",
+   "pauseAfterSeconds": 0.6,
+   "role": "script"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0002",
+   "seq": 2,
+   "voice": {
+    "accent": "AU",
+    "gender": "M"
+   },
+   "text": "Ah, so that's why it's no longer in the shared folder. Is there a deadline?",
+   "pauseAfterSeconds": 0.6,
+   "role": "script"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0002",
+   "seq": 3,
+   "voice": {
+    "accent": "UK",
+    "gender": "W"
+   },
+   "text": "Yes. Claims for last month need to be in by the thirty-first, along with your receipt and your manager's approval.",
+   "pauseAfterSeconds": 0.6,
+   "role": "script"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0002",
+   "seq": 4,
+   "voice": {
+    "accent": "AU",
+    "gender": "M"
+   },
+   "text": "That's tight. My manager's on holiday until the second of next month.",
+   "pauseAfterSeconds": 0.6,
+   "role": "script"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0002",
+   "seq": 5,
+   "voice": {
+    "accent": "UK",
+    "gender": "W"
+   },
+   "text": "That's fine. Upload the receipt today, and I'll add a note to your file making it an exception, so it's fine if the approval comes in a few days late.",
+   "pauseAfterSeconds": 0.6,
+   "role": "script"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0002",
+   "seq": 6,
+   "voice": {
+    "accent": "AU",
+    "gender": "M"
+   },
+   "text": "Great, thanks. I'll do that right after lunch.",
+   "pauseAfterSeconds": 0.6,
+   "role": "script"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0002",
+   "seq": 7,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "Question 1. Why is the man calling?",
+   "pauseAfterSeconds": 8.0,
+   "role": "question"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0002",
+   "seq": 8,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "Question 2. According to the woman, what happened in September?",
+   "pauseAfterSeconds": 8.0,
+   "role": "question"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0002",
+   "seq": 9,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "Question 3. What does the woman offer to do?",
+   "pauseAfterSeconds": 8.0,
+   "role": "question"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0003",
+   "seq": 0,
+   "voice": {
+    "accent": "CA",
+    "gender": "M"
+   },
+   "text": "Good evening. We're checking in. There should be two rooms under Brightwell Consulting.",
+   "pauseAfterSeconds": 0.6,
+   "role": "script"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0003",
+   "seq": 1,
+   "voice": {
+    "accent": "UK",
+    "gender": "M"
+   },
+   "text": "Welcome. Yes, two single rooms for three nights. One thing before I give you your keys. The elevator on this side of the building is out of order tonight, so I've moved you from the ninth floor down to the second.",
+   "pauseAfterSeconds": 0.6,
+   "role": "script"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0003",
+   "seq": 2,
+   "voice": {
+    "accent": "AU",
+    "gender": "W"
+   },
+   "text": "That's fine. Does the shuttle to the convention center still leave at eight tomorrow?",
+   "pauseAfterSeconds": 0.6,
+   "role": "script"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0003",
+   "seq": 3,
+   "voice": {
+    "accent": "UK",
+    "gender": "M"
+   },
+   "text": "It does, from the main entrance. Just show the driver your room key.",
+   "pauseAfterSeconds": 0.6,
+   "role": "script"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0003",
+   "seq": 4,
+   "voice": {
+    "accent": "CA",
+    "gender": "M"
+   },
+   "text": "Great. Could we also have a late checkout on Friday? Our flight isn't until seven in the evening.",
+   "pauseAfterSeconds": 0.6,
+   "role": "script"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0003",
+   "seq": 5,
+   "voice": {
+    "accent": "UK",
+    "gender": "M"
+   },
+   "text": "I can extend it to two o'clock at no extra charge. Just come to the front desk on Friday morning and remind us.",
+   "pauseAfterSeconds": 0.6,
+   "role": "script"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0003",
+   "seq": 6,
+   "voice": {
+    "accent": "AU",
+    "gender": "W"
+   },
+   "text": "Perfect. Then I'll book a taxi to the airport for half past four.",
+   "pauseAfterSeconds": 0.6,
+   "role": "script"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0003",
+   "seq": 7,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "Question 1. Where most likely are the speakers?",
+   "pauseAfterSeconds": 8.0,
+   "role": "question"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0003",
+   "seq": 8,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "Question 2. Why have the guests been moved to a different floor?",
+   "pauseAfterSeconds": 8.0,
+   "role": "question"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0003",
+   "seq": 9,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "Question 3. What does the woman say she will do?",
+   "pauseAfterSeconds": 8.0,
+   "role": "question"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0004",
+   "seq": 0,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "Jake, the weekend sale starts tomorrow, so I'd like to set up the coffee-maker display at the end of the aisle this afternoon. Which model should we feature?",
+   "pauseAfterSeconds": 0.6,
+   "role": "script"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0004",
+   "seq": 1,
+   "voice": {
+    "accent": "AU",
+    "gender": "M"
+   },
+   "text": "Customers keep asking for one that looks good on the counter. But we've only got three of the Pro left.",
+   "pauseAfterSeconds": 0.6,
+   "role": "script"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0004",
+   "seq": 2,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "Right, three won't last the first hour. Let's feature the one that's on sale for seventy-nine instead. That's a good price point, and the sign for it is already printed.",
+   "pauseAfterSeconds": 0.6,
+   "role": "script"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0004",
+   "seq": 3,
+   "voice": {
+    "accent": "AU",
+    "gender": "M"
+   },
+   "text": "Good. Should I update the shelf labels too? They're still showing the regular prices.",
+   "pauseAfterSeconds": 0.6,
+   "role": "script"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0004",
+   "seq": 4,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "Yes, please. And move the Brewmate units to the lower shelf. I'll call the warehouse about extra stock.",
+   "pauseAfterSeconds": 0.6,
+   "role": "script"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0004",
+   "seq": 5,
+   "voice": {
+    "accent": "AU",
+    "gender": "M"
+   },
+   "text": "I'll get started as soon as I've finished these returns.",
+   "pauseAfterSeconds": 0.6,
+   "role": "script"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0004",
+   "seq": 6,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "Question 1. What are the speakers mainly discussing?",
+   "pauseAfterSeconds": 8.0,
+   "role": "question"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0004",
+   "seq": 7,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "Question 2. Look at the graphic. Which model will the speakers feature in the display?",
+   "pauseAfterSeconds": 8.0,
+   "role": "question"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0004",
+   "seq": 8,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "Question 3. Why does the man say, \"But we've only got three of the Pro left\"?",
+   "pauseAfterSeconds": 8.0,
+   "role": "question"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0005",
+   "seq": 0,
+   "voice": {
+    "accent": "UK",
+    "gender": "M"
+   },
+   "text": "Hana, since this morning's update, half the warehouse can't log in to the inventory system. The help desk has over thirty tickets.",
+   "pauseAfterSeconds": 0.6,
+   "role": "script"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0005",
+   "seq": 1,
+   "voice": {
+    "accent": "CA",
+    "gender": "W"
+   },
+   "text": "I've seen them. It's the new security patch. It rejects any password with a symbol in it, like an exclamation mark. I can roll back to the old version in twenty minutes.",
+   "pauseAfterSeconds": 0.6,
+   "role": "script"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0005",
+   "seq": 2,
+   "voice": {
+    "accent": "UK",
+    "gender": "M"
+   },
+   "text": "Please do. The afternoon shift starts at two, and they can't ship orders without it.",
+   "pauseAfterSeconds": 0.6,
+   "role": "script"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0005",
+   "seq": 3,
+   "voice": {
+    "accent": "CA",
+    "gender": "W"
+   },
+   "text": "Understood. After that, I'll fix the patch and test it on the staging server before we release it again.",
+   "pauseAfterSeconds": 0.6,
+   "role": "script"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0005",
+   "seq": 4,
+   "voice": {
+    "accent": "UK",
+    "gender": "M"
+   },
+   "text": "This morning's update went through staging as well.",
+   "pauseAfterSeconds": 0.6,
+   "role": "script"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0005",
+   "seq": 5,
+   "voice": {
+    "accent": "CA",
+    "gender": "W"
+   },
+   "text": "Fair point. The test accounts on staging don't use symbols, so the bug never showed up. This time I'll test it with a few accounts that have symbols in the passwords.",
+   "pauseAfterSeconds": 0.6,
+   "role": "script"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0005",
+   "seq": 6,
+   "voice": {
+    "accent": "UK",
+    "gender": "M"
+   },
+   "text": "Good. Message me when the rollback's done, and I'll tell the help desk.",
+   "pauseAfterSeconds": 0.6,
+   "role": "script"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0005",
+   "seq": 7,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "Question 1. What problem are the speakers discussing?",
+   "pauseAfterSeconds": 8.0,
+   "role": "question"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0005",
+   "seq": 8,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "Question 2. According to the woman, what caused the problem?",
+   "pauseAfterSeconds": 8.0,
+   "role": "question"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0005",
+   "seq": 9,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "Question 3. What does the man imply when he says, \"This morning's update went through staging as well\"?",
+   "pauseAfterSeconds": 8.0,
+   "role": "question"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0006",
+   "seq": 0,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "Marco, the Linden Street office group is here for their one o'clock reservation, but they're fifteen minutes early. Their table isn't set yet.",
+   "pauseAfterSeconds": 0.6,
+   "role": "script"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0006",
+   "seq": 1,
+   "voice": {
+    "accent": "UK",
+    "gender": "M"
+   },
+   "text": "That's all right. Show them to the back room, hand out the menus, and take them some water and bread baskets while Priya sets the long table.",
+   "pauseAfterSeconds": 0.6,
+   "role": "script"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0006",
+   "seq": 2,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "Will do. One more thing. Two of them asked about the pumpkin soup on the way in. Is the kitchen still serving it today?",
+   "pauseAfterSeconds": 0.6,
+   "role": "script"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0006",
+   "seq": 3,
+   "voice": {
+    "accent": "UK",
+    "gender": "M"
+   },
+   "text": "No, we've sold out of the soup. The last bowl went about twenty minutes ago. If anyone asks, recommend the roasted vegetable salad instead. It's the same price.",
+   "pauseAfterSeconds": 0.6,
+   "role": "script"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0006",
+   "seq": 4,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "Got it. I'll tell them when I bring the menus.",
+   "pauseAfterSeconds": 0.6,
+   "role": "script"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0006",
+   "seq": 5,
+   "voice": {
+    "accent": "UK",
+    "gender": "M"
+   },
+   "text": "Thanks. And if they want wine for the table, come and get me. I'll take that order myself.",
+   "pauseAfterSeconds": 0.6,
+   "role": "script"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0006",
+   "seq": 6,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "Question 1. Where most likely are the speakers?",
+   "pauseAfterSeconds": 8.0,
+   "role": "question"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0006",
+   "seq": 7,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "Question 2. Why does the man recommend the salad?",
+   "pauseAfterSeconds": 8.0,
+   "role": "question"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0006",
+   "seq": 8,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "Question 3. What does the man say he will do?",
+   "pauseAfterSeconds": 8.0,
+   "role": "question"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0007",
+   "seq": 0,
+   "voice": {
+    "accent": "UK",
+    "gender": "M"
+   },
+   "text": "Nadia, your two o'clock patient, Mr. Beltran, just called. He's stuck in traffic, so he'll be about twenty minutes late.",
+   "pauseAfterSeconds": 0.6,
+   "role": "script"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0007",
+   "seq": 1,
+   "voice": {
+    "accent": "CA",
+    "gender": "W"
+   },
+   "text": "That's a problem. My two-thirty is a new patient assessment, and those take the full hour, so I can't push it back.",
+   "pauseAfterSeconds": 0.6,
+   "role": "script"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0007",
+   "seq": 2,
+   "voice": {
+    "accent": "UK",
+    "gender": "M"
+   },
+   "text": "Shall I offer him another day? There's a free slot on Thursday morning.",
+   "pauseAfterSeconds": 0.6,
+   "role": "script"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0007",
+   "seq": 3,
+   "voice": {
+    "accent": "CA",
+    "gender": "W"
+   },
+   "text": "Yes, try that first. And if Thursday doesn't suit him, I can see him at four this afternoon. My last patient of the day just cancelled.",
+   "pauseAfterSeconds": 0.6,
+   "role": "script"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0007",
+   "seq": 4,
+   "voice": {
+    "accent": "UK",
+    "gender": "M"
+   },
+   "text": "Right, I'll call him back now. One more thing. The supplier says the new treatment table won't arrive until Friday.",
+   "pauseAfterSeconds": 0.6,
+   "role": "script"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0007",
+   "seq": 5,
+   "voice": {
+    "accent": "CA",
+    "gender": "W"
+   },
+   "text": "Honestly, I'm not surprised. Every delivery they've sent us this year has been late. We'll keep using the old table until then.",
+   "pauseAfterSeconds": 0.6,
+   "role": "script"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0007",
+   "seq": 6,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "Question 1. Why did Mr. Beltran call the clinic?",
+   "pauseAfterSeconds": 8.0,
+   "role": "question"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0007",
+   "seq": 7,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "Question 2. What does the woman say she can do if Thursday does not suit Mr. Beltran?",
+   "pauseAfterSeconds": 8.0,
+   "role": "question"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0007",
+   "seq": 8,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "Question 3. What does the woman mean when she says, \"I'm not surprised\"?",
+   "pauseAfterSeconds": 8.0,
+   "role": "question"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0008",
+   "seq": 0,
+   "voice": {
+    "accent": "US",
+    "gender": "M"
+   },
+   "text": "Hi, I'm looking for a two-bedroom apartment. My lease at my current place ends on November fifteenth, so I need somewhere I can move into before then.",
+   "pauseAfterSeconds": 0.6,
+   "role": "script"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0008",
+   "seq": 1,
+   "voice": {
+    "accent": "AU",
+    "gender": "W"
+   },
+   "text": "We have a couple of two-bedroom units coming up, but only one of them is ready before the fifteenth. The other won't be free until December.",
+   "pauseAfterSeconds": 0.6,
+   "role": "script"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0008",
+   "seq": 2,
+   "voice": {
+    "accent": "US",
+    "gender": "M"
+   },
+   "text": "Then I'd like to see the one that's ready first. Is the rent negotiable at all?",
+   "pauseAfterSeconds": 0.6,
+   "role": "script"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0008",
+   "seq": 3,
+   "voice": {
+    "accent": "AU",
+    "gender": "W"
+   },
+   "text": "The owner sets the rent, and he won't go any lower. He does include parking and water, though, which saves most tenants about a hundred dollars a month.",
+   "pauseAfterSeconds": 0.6,
+   "role": "script"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0008",
+   "seq": 4,
+   "voice": {
+    "accent": "US",
+    "gender": "M"
+   },
+   "text": "That helps. Could I take a look at it today?",
+   "pauseAfterSeconds": 0.6,
+   "role": "script"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0008",
+   "seq": 5,
+   "voice": {
+    "accent": "AU",
+    "gender": "W"
+   },
+   "text": "Not today, I'm afraid. The current tenant has asked for a day's notice, so I'll call her right now and then text you a time for tomorrow.",
+   "pauseAfterSeconds": 0.6,
+   "role": "script"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0008",
+   "seq": 6,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "Question 1. Why is the man contacting the agency?",
+   "pauseAfterSeconds": 8.0,
+   "role": "question"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0008",
+   "seq": 7,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "Question 2. Look at the graphic. Which unit will the man most likely view?",
+   "pauseAfterSeconds": 8.0,
+   "role": "question"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0008",
+   "seq": 8,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "Question 3. What will the woman do next?",
+   "pauseAfterSeconds": 8.0,
+   "role": "question"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0009",
+   "seq": 0,
+   "voice": {
+    "accent": "UK",
+    "gender": "W"
+   },
+   "text": "Oscar, I'm closing the books for the third quarter, and your team's travel spending is eighteen percent over forecast. Can you explain the gap?",
+   "pauseAfterSeconds": 0.6,
+   "role": "script"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0009",
+   "seq": 1,
+   "voice": {
+    "accent": "CA",
+    "gender": "M"
+   },
+   "text": "Most of it is the regional trade show. It took place in June, but the hotel and the venue only invoiced us in July, so the whole cost landed in this quarter.",
+   "pauseAfterSeconds": 0.6,
+   "role": "script"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0009",
+   "seq": 2,
+   "voice": {
+    "accent": "UK",
+    "gender": "W"
+   },
+   "text": "I see. But a cost belongs in the quarter the event happened, not the quarter the bill arrives. Could you send me the booking confirmations? They'll prove the actual dates, and I'll move the cost back.",
+   "pauseAfterSeconds": 0.6,
+   "role": "script"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0009",
+   "seq": 3,
+   "voice": {
+    "accent": "CA",
+    "gender": "M"
+   },
+   "text": "Of course. I'll pull them together this afternoon. Will that bring the variance down?",
+   "pauseAfterSeconds": 0.6,
+   "role": "script"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0009",
+   "seq": 4,
+   "voice": {
+    "accent": "UK",
+    "gender": "W"
+   },
+   "text": "It should fall below ten percent, so you won't have to explain it to the board next month.",
+   "pauseAfterSeconds": 0.6,
+   "role": "script"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0009",
+   "seq": 5,
+   "voice": {
+    "accent": "CA",
+    "gender": "M"
+   },
+   "text": "Well, that's one meeting I'm glad to skip. You'll have the confirmations by three.",
+   "pauseAfterSeconds": 0.6,
+   "role": "script"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0009",
+   "seq": 6,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "Question 1. What are the speakers mainly discussing?",
+   "pauseAfterSeconds": 8.0,
+   "role": "question"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0009",
+   "seq": 7,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "Question 2. According to the man, why did the trade show cost appear in the third quarter?",
+   "pauseAfterSeconds": 8.0,
+   "role": "question"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0009",
+   "seq": 8,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "Question 3. What does the man mean when he says, \"that's one meeting I'm glad to skip\"?",
+   "pauseAfterSeconds": 8.0,
+   "role": "question"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0010",
+   "seq": 0,
+   "voice": {
+    "accent": "UK",
+    "gender": "W"
+   },
+   "text": "Theo, line three is down. It stopped about ten minutes ago. Do you know what's wrong?",
+   "pauseAfterSeconds": 0.6,
+   "role": "script"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0010",
+   "seq": 1,
+   "voice": {
+    "accent": "AU",
+    "gender": "M"
+   },
+   "text": "Yes. The motor on the sealing unit is overheating, so it won't restart. I've ordered a new motor, and the supplier says it'll be delivered on Thursday morning.",
+   "pauseAfterSeconds": 0.6,
+   "role": "script"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0010",
+   "seq": 2,
+   "voice": {
+    "accent": "UK",
+    "gender": "W"
+   },
+   "text": "Thursday? That's a problem. The Kessler order has to go out on Friday. Could we pack those boxes on line two until then?",
+   "pauseAfterSeconds": 0.6,
+   "role": "script"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0010",
+   "seq": 3,
+   "voice": {
+    "accent": "AU",
+    "gender": "M"
+   },
+   "text": "We could. Line two is set up for the small boxes right now, but I can change the settings. It'll take me about an hour.",
+   "pauseAfterSeconds": 0.6,
+   "role": "script"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0010",
+   "seq": 4,
+   "voice": {
+    "accent": "UK",
+    "gender": "W"
+   },
+   "text": "Please do that now. While you're working on it, I'll walk over to the warehouse and let the team know the Kessler boxes will be coming from line two instead.",
+   "pauseAfterSeconds": 0.6,
+   "role": "script"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0010",
+   "seq": 5,
+   "voice": {
+    "accent": "AU",
+    "gender": "M"
+   },
+   "text": "No problem. I'll call you as soon as it's ready.",
+   "pauseAfterSeconds": 0.6,
+   "role": "script"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0010",
+   "seq": 6,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "Question 1. What are the speakers mainly discussing?",
+   "pauseAfterSeconds": 8.0,
+   "role": "question"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0010",
+   "seq": 7,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "Question 2. When will the new motor be delivered?",
+   "pauseAfterSeconds": 8.0,
+   "role": "question"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0010",
+   "seq": 8,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "Question 3. What will the woman probably do next?",
+   "pauseAfterSeconds": 8.0,
+   "role": "question"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0011",
+   "seq": 0,
+   "voice": {
+    "accent": "UK",
+    "gender": "W"
+   },
+   "text": "Good morning. This is Grace Nolan from Maple Events. I'd like to reserve a room at your venue for an awards dinner on Friday the twenty-second.",
+   "pauseAfterSeconds": 0.6,
+   "role": "script"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0011",
+   "seq": 1,
+   "voice": {
+    "accent": "AU",
+    "gender": "M"
+   },
+   "text": "Certainly. How many guests are you expecting?",
+   "pauseAfterSeconds": 0.6,
+   "role": "script"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0011",
+   "seq": 2,
+   "voice": {
+    "accent": "UK",
+    "gender": "W"
+   },
+   "text": "A hundred and ten. I was hoping for the Harbor Hall.",
+   "pauseAfterSeconds": 0.6,
+   "role": "script"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0011",
+   "seq": 3,
+   "voice": {
+    "accent": "AU",
+    "gender": "M"
+   },
+   "text": "I'm sorry, the Harbor Hall's already booked that evening. The next room down in size is still free, though, and it seats a hundred and twenty. It has a stage, so it'd suit an awards night.",
+   "pauseAfterSeconds": 0.6,
+   "role": "script"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0011",
+   "seq": 4,
+   "voice": {
+    "accent": "UK",
+    "gender": "W"
+   },
+   "text": "That'll work. Could you send me a written quote today? My client needs to approve the cost by tomorrow.",
+   "pauseAfterSeconds": 0.6,
+   "role": "script"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0011",
+   "seq": 5,
+   "voice": {
+    "accent": "AU",
+    "gender": "M"
+   },
+   "text": "Of course. I'll email you the quote within the hour. Once your client approves it, we'll ask for a small deposit to hold the room.",
+   "pauseAfterSeconds": 0.6,
+   "role": "script"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0011",
+   "seq": 6,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "Question 1. Why is the woman calling?",
+   "pauseAfterSeconds": 8.0,
+   "role": "question"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0011",
+   "seq": 7,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "Question 2. Look at the graphic. Which room will the woman most likely reserve?",
+   "pauseAfterSeconds": 8.0,
+   "role": "question"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0011",
+   "seq": 8,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "Question 3. What will the man do next?",
+   "pauseAfterSeconds": 8.0,
+   "role": "question"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0012",
+   "seq": 0,
+   "voice": {
+    "accent": "US",
+    "gender": "M"
+   },
+   "text": "Nora, Harlow Foods just sent their feedback on the spring campaign. They love the video, but they want to launch two weeks earlier than we planned.",
+   "pauseAfterSeconds": 0.6,
+   "role": "script"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0012",
+   "seq": 1,
+   "voice": {
+    "accent": "AU",
+    "gender": "W"
+   },
+   "text": "Two weeks earlier? That's right in the middle of the trade show. Half our team will be in Denver.",
+   "pauseAfterSeconds": 0.6,
+   "role": "script"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0012",
+   "seq": 2,
+   "voice": {
+    "accent": "US",
+    "gender": "M"
+   },
+   "text": "I know. I reminded them why we picked the original date, but their head office has already decided.",
+   "pauseAfterSeconds": 0.6,
+   "role": "script"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0012",
+   "seq": 3,
+   "voice": {
+    "accent": "AU",
+    "gender": "W"
+   },
+   "text": "Well, that's a first. They've always checked with us before changing anything.",
+   "pauseAfterSeconds": 0.6,
+   "role": "script"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0012",
+   "seq": 4,
+   "voice": {
+    "accent": "US",
+    "gender": "M"
+   },
+   "text": "To be fair, they have a reason. Their new snack range will be in stores sooner than expected, so they want the ads running before it arrives.",
+   "pauseAfterSeconds": 0.6,
+   "role": "script"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0012",
+   "seq": 5,
+   "voice": {
+    "accent": "AU",
+    "gender": "W"
+   },
+   "text": "Fine. I'll redo the ad schedule tonight and flag anything we can't cover while we're away.",
+   "pauseAfterSeconds": 0.6,
+   "role": "script"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0012",
+   "seq": 6,
+   "voice": {
+    "accent": "US",
+    "gender": "M"
+   },
+   "text": "Thanks. Let's walk the account director through it before she calls them on Thursday.",
+   "pauseAfterSeconds": 0.6,
+   "role": "script"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0012",
+   "seq": 7,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "Question 1. What are the speakers mainly discussing?",
+   "pauseAfterSeconds": 8.0,
+   "role": "question"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0012",
+   "seq": 8,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "Question 2. According to the man, why does the client want an earlier date?",
+   "pauseAfterSeconds": 8.0,
+   "role": "question"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0012",
+   "seq": 9,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "Question 3. What does the woman mean when she says, \"that's a first\"?",
+   "pauseAfterSeconds": 8.0,
+   "role": "question"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0013",
+   "seq": 0,
+   "voice": {
+    "accent": "UK",
+    "gender": "W"
+   },
+   "text": "Leo, I've just compared the Northgate Office Supplies invoice with the delivery note. The invoice lists forty chairs, but the warehouse only signed for thirty-two.",
+   "pauseAfterSeconds": 0.6,
+   "role": "script"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0013",
+   "seq": 1,
+   "voice": {
+    "accent": "CA",
+    "gender": "M"
+   },
+   "text": "So they've billed us for eight chairs that never arrived. Can you email their accounts team today and ask for a corrected invoice?",
+   "pauseAfterSeconds": 0.6,
+   "role": "script"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0013",
+   "seq": 2,
+   "voice": {
+    "accent": "UK",
+    "gender": "W"
+   },
+   "text": "I will. The trouble is, the payment's due on Monday, and our contact there is away until the end of the month.",
+   "pauseAfterSeconds": 0.6,
+   "role": "script"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0013",
+   "seq": 3,
+   "voice": {
+    "accent": "CA",
+    "gender": "M"
+   },
+   "text": "Then we won't pay yet. Hold the payment until the figures match. I'll explain the delay to the finance director myself.",
+   "pauseAfterSeconds": 0.6,
+   "role": "script"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0013",
+   "seq": 4,
+   "voice": {
+    "accent": "UK",
+    "gender": "W"
+   },
+   "text": "Should I mention that in the email to Northgate as well?",
+   "pauseAfterSeconds": 0.6,
+   "role": "script"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0013",
+   "seq": 5,
+   "voice": {
+    "accent": "CA",
+    "gender": "M"
+   },
+   "text": "Yes, say we're holding payment until the invoice is corrected. That tends to get a quick response, even when someone's away.",
+   "pauseAfterSeconds": 0.6,
+   "role": "script"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0013",
+   "seq": 6,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "Question 1. What problem are the speakers discussing?",
+   "pauseAfterSeconds": 8.0,
+   "role": "question"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0013",
+   "seq": 7,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "Question 2. What does the man say he will do?",
+   "pauseAfterSeconds": 8.0,
+   "role": "question"
+  },
+  {
+   "set": "p3-set-1",
+   "item": "p3-0013",
+   "seq": 8,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "Question 3. What does the woman imply when she says, \"our contact there is away until the end of the month\"?",
+   "pauseAfterSeconds": 8.0,
+   "role": "question"
+  },
+  {
+   "set": "p4-set-1",
+   "item": "p4-0001",
+   "seq": 0,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "Attention, Harlow Home shoppers. Thanks for shopping with us today. From cookware to curtains, you'll find it all here. Until three o'clock this afternoon, every item in our bedding department on the second floor is twenty percent off. That means sheets, pillows, blankets and duvet covers. The discount is applied automatically at the register, so there's nothing extra to do. One quick reminder. Our gift-wrapping counter near the main entrance closes at six this evening, two hours before the store itself closes at eight. If you'd like a purchase wrapped, please stop by the counter before six. And if you want to hear about future sales before anyone else, ask any cashier how to sign up for our free text alerts. It takes less than a minute. Thanks again for shopping at Harlow Home, and enjoy your afternoon.",
+   "pauseAfterSeconds": 0.6,
+   "role": "script"
+  },
+  {
+   "set": "p4-set-1",
+   "item": "p4-0001",
+   "seq": 1,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "Question 1. Where is the announcement being made?",
+   "pauseAfterSeconds": 8.0,
+   "role": "question"
+  },
+  {
+   "set": "p4-set-1",
+   "item": "p4-0001",
+   "seq": 2,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "Question 2. What will happen at six o'clock?",
+   "pauseAfterSeconds": 8.0,
+   "role": "question"
+  },
+  {
+   "set": "p4-set-1",
+   "item": "p4-0001",
+   "seq": 3,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "Question 3. What does the speaker suggest listeners do to hear about future sales?",
+   "pauseAfterSeconds": 8.0,
+   "role": "question"
+  },
+  {
+   "set": "p4-set-1",
+   "item": "p4-0002",
+   "seq": 0,
+   "voice": {
+    "accent": "UK",
+    "gender": "M"
+   },
+   "text": "Hi, this is Daniel calling from Brightwater Dental, and this message is for Ms. Okafor. I'm sorry, but we need to move your appointment with Dr. Lindqvist. It was booked for Thursday at half past two, but the doctor will be away at a training course that afternoon. We have two other times open: Friday at nine in the morning, or Tuesday at four in the afternoon. Please call us back and tell us which one you'd prefer, and we'll confirm it straight away. If neither time works for you, please call us anyway, and we'll find another day together. Also, when you come in, please bring your new insurance card so we can update your file. Sorry again for the change, and we'll speak soon.",
+   "pauseAfterSeconds": 0.6,
+   "role": "script"
+  },
+  {
+   "set": "p4-set-1",
+   "item": "p4-0002",
+   "seq": 1,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "Question 1. Why is the speaker calling?",
+   "pauseAfterSeconds": 8.0,
+   "role": "question"
+  },
+  {
+   "set": "p4-set-1",
+   "item": "p4-0002",
+   "seq": 2,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "Question 2. What time is available on Friday?",
+   "pauseAfterSeconds": 8.0,
+   "role": "question"
+  },
+  {
+   "set": "p4-set-1",
+   "item": "p4-0002",
+   "seq": 3,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "Question 3. What does the speaker ask the listener to do if neither time is suitable?",
+   "pauseAfterSeconds": 8.0,
+   "role": "question"
+  },
+  {
+   "set": "p4-set-1",
+   "item": "p4-0003",
+   "seq": 0,
+   "voice": {
+    "accent": "AU",
+    "gender": "W"
+   },
+   "text": "Is your laptop taking forever to start up? Does your phone battery barely last till lunchtime? Bring it to Northgate Device Repair. Our certified technicians fix cracked screens, worn-out batteries and slow laptops, and most jobs are finished the same day. Every repair comes with a six-month guarantee. And here's our special offer for March. Book any screen repair on our website, and we'll replace your battery at half price. That's a saving of up to sixty dollars, but only until the thirty-first, so don't wait. You'll find our shop on Carrow Street in Elmbrook, open seven days a week. Can't get to us? No problem. For a flat fee of twelve dollars, our courier will pick up your device from your home or office and bring it back when it's fixed. Visit our website to book today. Northgate Device Repair. Fixed fast, fixed right.",
+   "pauseAfterSeconds": 0.6,
+   "role": "script"
+  },
+  {
+   "set": "p4-set-1",
+   "item": "p4-0003",
+   "seq": 1,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "Question 1. What is being advertised?",
+   "pauseAfterSeconds": 8.0,
+   "role": "question"
+  },
+  {
+   "set": "p4-set-1",
+   "item": "p4-0003",
+   "seq": 2,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "Question 2. What must customers do to receive the half-price battery?",
+   "pauseAfterSeconds": 8.0,
+   "role": "question"
+  },
+  {
+   "set": "p4-set-1",
+   "item": "p4-0003",
+   "seq": 3,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "Question 3. Why does the speaker say, \"Can't get to us?\"",
+   "pauseAfterSeconds": 8.0,
+   "role": "question"
+  },
+  {
+   "set": "p4-set-1",
+   "item": "p4-0004",
+   "seq": 0,
+   "voice": {
+    "accent": "CA",
+    "gender": "M"
+   },
+   "text": "Good morning, everyone, and welcome to Marwood Bicycle Works. I'm Ethan, and I'll be your guide for this morning's visitor tour. Before we go through those doors, a few things. You've each got a printed schedule, and we'll follow it, with one change. One area is closed for maintenance today, so the eleven twenty stop is cancelled. That means you'll have extra time in the quality lab to watch frames being tested. On the floor, safety glasses stay on at all times, and please stay inside the yellow lines. Photos are fine, except near the welding stations, where a flash can distract the operators. Finally, some visitors save their questions for the end. You don't need to. If something catches your eye, stop me right there. I'd rather you ask than wonder. All right, let's head in.",
+   "pauseAfterSeconds": 0.6,
+   "role": "script"
+  },
+  {
+   "set": "p4-set-1",
+   "item": "p4-0004",
+   "seq": 1,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "Question 1. What is the purpose of the talk?",
+   "pauseAfterSeconds": 8.0,
+   "role": "question"
+  },
+  {
+   "set": "p4-set-1",
+   "item": "p4-0004",
+   "seq": 2,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "Question 2. Look at the graphic. Which stop has been cancelled?",
+   "pauseAfterSeconds": 8.0,
+   "role": "question"
+  },
+  {
+   "set": "p4-set-1",
+   "item": "p4-0004",
+   "seq": 3,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "Question 3. Why does the speaker say, \"I'd rather you ask than wonder\"?",
+   "pauseAfterSeconds": 8.0,
+   "role": "question"
+  },
+  {
+   "set": "p4-set-1",
+   "item": "p4-0005",
+   "seq": 0,
+   "voice": {
+    "accent": "UK",
+    "gender": "W"
+   },
+   "text": "Thanks, everyone. Next on the agenda is the Lumen water bottle, and I want to propose some changes to the spring campaign before we run it again in summer. Our social media posts reached three hundred thousand people, roughly double what we projected. But only two percent of those people clicked through to the product page, and our target was five. So people enjoyed the posts; they just weren't moved to buy. I read through the comments, and the question that came up again and again was the price, which we never showed. So for summer, every post will state the price up front, and we'll add a short video of the bottle keeping ice frozen for twenty-four hours. Mei, could you draft three versions of the video script by Friday? We'll choose one on Monday. Then on Tuesday, I'll take our budget request to the finance team.",
+   "pauseAfterSeconds": 0.6,
+   "role": "script"
+  },
+  {
+   "set": "p4-set-1",
+   "item": "p4-0005",
+   "seq": 1,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "Question 1. What is the purpose of the talk?",
+   "pauseAfterSeconds": 8.0,
+   "role": "question"
+  },
+  {
+   "set": "p4-set-1",
+   "item": "p4-0005",
+   "seq": 2,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "Question 2. What did many commenters ask about?",
+   "pauseAfterSeconds": 8.0,
+   "role": "question"
+  },
+  {
+   "set": "p4-set-1",
+   "item": "p4-0005",
+   "seq": 3,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "Question 3. What will the speaker do on Tuesday?",
+   "pauseAfterSeconds": 8.0,
+   "role": "question"
+  },
+  {
+   "set": "p4-set-1",
+   "item": "p4-0006",
+   "seq": 0,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "Good morning, and thanks for staying with us on Harbor Radio. If you're making weekend plans, here's some good news. The Pinecrest Farmers' Market is back this Saturday after its winter break. More than forty stalls will line Mill Street, selling fresh produce, baked goods, and handmade crafts. The market opens at eight in the morning and closes at one in the afternoon. Please note that there'll be no parking on Mill Street itself that day. Organizers are asking visitors to use the free lot behind the public library, which is just a two-minute walk from the market. A local band will play live from ten o'clock. And if you can, bring your own bags, because stall holders have only a limited supply of paper ones. Now, stay tuned. Dana is up next with the morning traffic report.",
+   "pauseAfterSeconds": 0.6,
+   "role": "script"
+  },
+  {
+   "set": "p4-set-1",
+   "item": "p4-0006",
+   "seq": 1,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "Question 1. What is the speaker mainly talking about?",
+   "pauseAfterSeconds": 8.0,
+   "role": "question"
+  },
+  {
+   "set": "p4-set-1",
+   "item": "p4-0006",
+   "seq": 2,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "Question 2. What time does the market close?",
+   "pauseAfterSeconds": 8.0,
+   "role": "question"
+  },
+  {
+   "set": "p4-set-1",
+   "item": "p4-0006",
+   "seq": 3,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "Question 3. What will listeners most likely hear next?",
+   "pauseAfterSeconds": 8.0,
+   "role": "question"
+  },
+  {
+   "set": "p4-set-1",
+   "item": "p4-0007",
+   "seq": 0,
+   "voice": {
+    "accent": "UK",
+    "gender": "M"
+   },
+   "text": "Thank you for calling Brookfield Motor Services. I'm afraid you've reached us outside our opening hours. We're open Monday to Friday, from eight in the morning until six in the evening, and on Saturdays until one o'clock. If you'd like to book a service or a repair, or change a booking you've already made, please leave your name, your registration number and a daytime phone number after the tone, and someone from our front desk will call you back on the next working day. If your car's broken down and you need help straight away, please hang up and call our recovery line on 0800 555 0147. A recovery driver answers that line twenty-four hours a day. And from the first of December, you'll be able to book online through our new website as well as by phone. Thank you, and goodbye.",
+   "pauseAfterSeconds": 0.6,
+   "role": "script"
+  },
+  {
+   "set": "p4-set-1",
+   "item": "p4-0007",
+   "seq": 1,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "Question 1. What is the main purpose of the message?",
+   "pauseAfterSeconds": 8.0,
+   "role": "question"
+  },
+  {
+   "set": "p4-set-1",
+   "item": "p4-0007",
+   "seq": 2,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "Question 2. According to the speaker, what will happen on the first of December?",
+   "pauseAfterSeconds": 8.0,
+   "role": "question"
+  },
+  {
+   "set": "p4-set-1",
+   "item": "p4-0007",
+   "seq": 3,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "Question 3. Why does the speaker say, \"A recovery driver answers that line twenty-four hours a day\"?",
+   "pauseAfterSeconds": 8.0,
+   "role": "question"
+  },
+  {
+   "set": "p4-set-1",
+   "item": "p4-0008",
+   "seq": 0,
+   "voice": {
+    "accent": "AU",
+    "gender": "W"
+   },
+   "text": "Hi everyone, and thanks for stopping by the Northwind stand. I'm Carla Benson, and I'd like to introduce our new Trek range of wireless headphones. There are four models, and the card in front of you lists the specifications. All four have the same noise-cancelling technology and the same soft ear cushions, so the real difference is battery life and weight. If you travel a lot, you'll want the model with the twenty-four-hour battery. That's the pair I'm demonstrating here today. The lightest model is made for people who exercise, and it comes in six colors. Every model has a two-year warranty. And one more thing: we're offering a fifteen percent discount, but only on orders placed here at the show. After Friday, it's back to the list price. So if you like what you hear, come and see me before you leave.",
+   "pauseAfterSeconds": 0.6,
+   "role": "script"
+  },
+  {
+   "set": "p4-set-1",
+   "item": "p4-0008",
+   "seq": 1,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "Question 1. What is the purpose of the talk?",
+   "pauseAfterSeconds": 8.0,
+   "role": "question"
+  },
+  {
+   "set": "p4-set-1",
+   "item": "p4-0008",
+   "seq": 2,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "Question 2. Look at the graphic. Which model is the speaker demonstrating?",
+   "pauseAfterSeconds": 8.0,
+   "role": "question"
+  },
+  {
+   "set": "p4-set-1",
+   "item": "p4-0008",
+   "seq": 3,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "Question 3. Why does the speaker say, \"After Friday, it's back to the list price\"?",
+   "pauseAfterSeconds": 8.0,
+   "role": "question"
+  },
+  {
+   "set": "p4-set-1",
+   "item": "p4-0009",
+   "seq": 0,
+   "voice": {
+    "accent": "CA",
+    "gender": "M"
+   },
+   "text": "Morning, everyone, and welcome to the Oakbridge Hotel kitchen. Before your first shift, I'll run through a few safety basics. The flat-top grills stay hot long after they're switched off, so treat every metal surface as hot unless you've checked. Knives go back in the block the moment you've finished with them, never in the sink, where the next person can't see them. If you spill something, mop it up right away and put the yellow cone out. The first-aid kit is on the wall beside the walk-in fridge. If you cut or burn yourself, tell me or the sous chef, Luis, straight away, even if it seems minor. I'd rather hear about ten small cuts than find out about one big one later. If anything's unclear, ask me or Luis at any time. Now grab an apron and let's get started.",
+   "pauseAfterSeconds": 0.6,
+   "role": "script"
+  },
+  {
+   "set": "p4-set-1",
+   "item": "p4-0009",
+   "seq": 1,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "Question 1. What is the main purpose of the talk?",
+   "pauseAfterSeconds": 8.0,
+   "role": "question"
+  },
+  {
+   "set": "p4-set-1",
+   "item": "p4-0009",
+   "seq": 2,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "Question 2. What should listeners do after using a knife?",
+   "pauseAfterSeconds": 8.0,
+   "role": "question"
+  },
+  {
+   "set": "p4-set-1",
+   "item": "p4-0009",
+   "seq": 3,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "Question 3. What does the speaker imply when he says, \"I'd rather hear about ten small cuts than find out about one big one later\"?",
+   "pauseAfterSeconds": 8.0,
+   "role": "question"
+  },
+  {
+   "set": "p4-set-1",
+   "item": "p4-0010",
+   "seq": 0,
+   "voice": {
+    "accent": "US",
+    "gender": "M"
+   },
+   "text": "Thank you, everyone. Before dessert comes out, I have one more thing to do, and it's the best part of my evening. Twenty years ago this month, a young engineer joined Fenmoor Systems to look after a single server room. Today, she manages a team of thirty people in three countries. I'm talking about Priya Nandan. Priya, half the people in this room have phoned you at two in the morning when a system went down, and you've never once complained. Many of you may not know that she also started our graduate mentoring scheme, which more than half of our new graduates have now completed. Priya, please come up and accept this award for twenty years of service. And before anyone starts worrying, no, she is not retiring. She's staying right here with us, and she asked me to make that very clear. Please give her a warm welcome.",
+   "pauseAfterSeconds": 0.6,
+   "role": "script"
+  },
+  {
+   "set": "p4-set-1",
+   "item": "p4-0010",
+   "seq": 1,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "Question 1. What is the main purpose of the speech?",
+   "pauseAfterSeconds": 8.0,
+   "role": "question"
+  },
+  {
+   "set": "p4-set-1",
+   "item": "p4-0010",
+   "seq": 2,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "Question 2. What does the speaker say about Priya Nandan's current role?",
+   "pauseAfterSeconds": 8.0,
+   "role": "question"
+  },
+  {
+   "set": "p4-set-1",
+   "item": "p4-0010",
+   "seq": 3,
+   "voice": {
+    "accent": "US",
+    "gender": "W"
+   },
+   "text": "Question 3. What does the speaker imply when he says, \"she asked me to make that very clear\"?",
+   "pauseAfterSeconds": 8.0,
+   "role": "question"
+  }
+ ]
+}
