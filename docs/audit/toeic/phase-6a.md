@@ -28,7 +28,7 @@ Date: 2026-10-15. Content and code: IELTS repo, branch `claude/toeic-phase3`. St
 - **Audio and photos are not produced** (Phase 6b): produce from the manifest, check lengths against the timings, source Part 1 photos to the briefs, then set `audio` on each item.
 - Teacher script review pending on all four sets; items stay `draft`.
 - Part 2 set-level variety (near-duplicate scenarios, repeated templates) is being reworked; the first attempt stopped on a session rate limit. Keys are verified; the rework changes wording and scenarios and will be re-solved.
-- Items p3-0004 and p4-0004 had their graphic clue reworked after the final solve; they are marked unsolved until re-checked.
+- Items p3-0004 and p4-0004 were re-solved after their graphic clue was reworked: 6/6 by all three solvers, and both graphic questions now need the graphic (one remaining elimination route in p3-0004 was closed by neutralising the shelf line).
 - Timing total is about 47 minutes against the test's 45; indicative only, to be checked against ETS's sample test pauses.
 - Strategy cards are drafts until the owner's recordings arrive.
 
